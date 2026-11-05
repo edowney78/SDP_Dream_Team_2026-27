@@ -1243,7 +1243,7 @@
       <spirit:vendorExtensions>
         <xilinx:busInterfaceInfo>
           <xilinx:enablement>
-            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="BUSIF_ENABLEMENT.BRAM_PORTB" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_SINGLE_PORT_BRAM&apos;)) = 0) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_BRAM_INST_MODE&apos;)) = &quot;EXTERNAL&quot;)))">true</xilinx:isEnabled>
+            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="BUSIF_ENABLEMENT.BRAM_PORTB" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_SINGLE_PORT_BRAM&apos;)) = 0) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_BRAM_INST_MODE&apos;)) = &quot;EXTERNAL&quot;)))">false</xilinx:isEnabled>
           </xilinx:enablement>
         </xilinx:busInterfaceInfo>
       </spirit:vendorExtensions>
@@ -3258,7 +3258,7 @@ The register is automatically cleared after the fault has been injected.
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.bram_rst_b" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_SINGLE_PORT_BRAM&apos;)) = 0) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_BRAM_INST_MODE&apos;)) = &quot;EXTERNAL&quot;)))">true</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.bram_rst_b" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_SINGLE_PORT_BRAM&apos;)) = 0) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_BRAM_INST_MODE&apos;)) = &quot;EXTERNAL&quot;)))">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -3277,7 +3277,7 @@ The register is automatically cleared after the fault has been injected.
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.bram_clk_b" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_SINGLE_PORT_BRAM&apos;)) = 0) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_BRAM_INST_MODE&apos;)) = &quot;EXTERNAL&quot;)))">true</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.bram_clk_b" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_SINGLE_PORT_BRAM&apos;)) = 0) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_BRAM_INST_MODE&apos;)) = &quot;EXTERNAL&quot;)))">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -3296,7 +3296,7 @@ The register is automatically cleared after the fault has been injected.
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.bram_en_b" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_SINGLE_PORT_BRAM&apos;)) = 0) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_BRAM_INST_MODE&apos;)) = &quot;EXTERNAL&quot;)))">true</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.bram_en_b" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_SINGLE_PORT_BRAM&apos;)) = 0) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_BRAM_INST_MODE&apos;)) = &quot;EXTERNAL&quot;)))">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -3319,7 +3319,7 @@ The register is automatically cleared after the fault has been injected.
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.bram_we_b" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_SINGLE_PORT_BRAM&apos;)) = 0) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_BRAM_INST_MODE&apos;)) = &quot;EXTERNAL&quot;)))">true</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.bram_we_b" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_SINGLE_PORT_BRAM&apos;)) = 0) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_BRAM_INST_MODE&apos;)) = &quot;EXTERNAL&quot;)))">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -3342,7 +3342,7 @@ The register is automatically cleared after the fault has been injected.
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.bram_addr_b" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_SINGLE_PORT_BRAM&apos;)) = 0) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_BRAM_INST_MODE&apos;)) = &quot;EXTERNAL&quot;)))">true</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.bram_addr_b" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_SINGLE_PORT_BRAM&apos;)) = 0) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_BRAM_INST_MODE&apos;)) = &quot;EXTERNAL&quot;)))">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -3365,7 +3365,7 @@ The register is automatically cleared after the fault has been injected.
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.bram_wrdata_b" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_SINGLE_PORT_BRAM&apos;)) = 0) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_BRAM_INST_MODE&apos;)) = &quot;EXTERNAL&quot;)))">true</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.bram_wrdata_b" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_SINGLE_PORT_BRAM&apos;)) = 0) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_BRAM_INST_MODE&apos;)) = &quot;EXTERNAL&quot;)))">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -3391,7 +3391,7 @@ The register is automatically cleared after the fault has been injected.
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.bram_rddata_b" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_SINGLE_PORT_BRAM&apos;)) = 0) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_BRAM_INST_MODE&apos;)) = &quot;EXTERNAL&quot;)))">true</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.bram_rddata_b" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_SINGLE_PORT_BRAM&apos;)) = 0) and ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_BRAM_INST_MODE&apos;)) = &quot;EXTERNAL&quot;)))">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -3553,7 +3553,7 @@ The register is automatically cleared after the fault has been injected.
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_SINGLE_PORT_BRAM</spirit:name>
         <spirit:displayName>C Single Port Bram</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_SINGLE_PORT_BRAM">0</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_SINGLE_PORT_BRAM">1</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="string">
         <spirit:name>C_FAMILY</spirit:name>
@@ -3712,7 +3712,7 @@ The register is automatically cleared after the fault has been injected.
     <spirit:parameter>
       <spirit:name>SINGLE_PORT_BRAM</spirit:name>
       <spirit:displayName>Number of BRAM interfaces</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.SINGLE_PORT_BRAM" spirit:choiceRef="choice_pairs_1d6ab62a" spirit:order="8">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.SINGLE_PORT_BRAM" spirit:choiceRef="choice_pairs_1d6ab62a" spirit:order="8">1</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -3880,6 +3880,7 @@ The register is automatically cleared after the fault has been injected.
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.BMG_INSTANCE" xilinx:valuePermission="bd"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.ID_WIDTH" xilinx:valuePermission="bd"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MEM_DEPTH" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.SINGLE_PORT_BRAM" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.SUPPORTS_NARROW_BURST" xilinx:valuePermission="bd_and_user"/>
       </xilinx:configElementInfos>
     </xilinx:coreExtensions>
