@@ -2,15 +2,61 @@
 # Vivado v2022.1 (64-bit)
 # SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
 # IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
-# Start of session at: Thu Nov  5 17:11:56 2026
-# Process ID: 27056
-# Current directory: C:/Users/Ethan/Documents/GitHub/Fall2026/SDP_Dream_Team_2026-27/FPGA/led_blink/led_blink.runs/design_1_xbar_0_synth_1
+# Start of session at: Thu Nov  5 15:40:13 2026
+# Process ID: 8376
+# Current directory: C:/Users/Ethan/Documents/GitHub/SDP_Dream_Team_2026-27/FPGA/led_blink/led_blink.runs/design_1_xbar_0_synth_1
 # Command line: vivado.exe -log design_1_xbar_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_xbar_0.tcl
-# Log file: C:/Users/Ethan/Documents/GitHub/Fall2026/SDP_Dream_Team_2026-27/FPGA/led_blink/led_blink.runs/design_1_xbar_0_synth_1/design_1_xbar_0.vds
-# Journal file: C:/Users/Ethan/Documents/GitHub/Fall2026/SDP_Dream_Team_2026-27/FPGA/led_blink/led_blink.runs/design_1_xbar_0_synth_1\vivado.jou
-# Running On: Ethan-Desktop, OS: Windows, CPU Frequency: 4092 MHz, CPU Physical cores: 12, Host memory: 33407 MB
+# Log file: C:/Users/Ethan/Documents/GitHub/SDP_Dream_Team_2026-27/FPGA/led_blink/led_blink.runs/design_1_xbar_0_synth_1/design_1_xbar_0.vds
+# Journal file: C:/Users/Ethan/Documents/GitHub/SDP_Dream_Team_2026-27/FPGA/led_blink/led_blink.runs/design_1_xbar_0_synth_1\vivado.jou
+# Running On: Ethan-WinVM, OS: Windows, CPU Frequency: 2000 MHz, CPU Physical cores: 5, Host memory: 8584 MB
 #-----------------------------------------------------------
 source design_1_xbar_0.tcl -notrace
 CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {WARNING}' to undo this change.
 CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'CRITICAL WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {CRITICAL WARNING}' to undo this change.
-ERROR: [Common 17-1293] The path 'C:/Users/Ethan/Documents/GitHub/Fall2026/SDP_Dream_Team_2026-27/FPGA/led_blink/led_blink.cache/wt' already exists, is a directory, but is not writable.
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1308.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:19 . Memory (MB): peak = 1308.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:19 ; elapsed = 00:00:34 . Memory (MB): peak = 1516.352 ; gain = 208.277
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:35 . Memory (MB): peak = 1516.352 ; gain = 208.277
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:35 . Memory (MB): peak = 1516.352 ; gain = 208.277
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.130 . Memory (MB): peak = 1516.352 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1553.602 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.176 . Memory (MB): peak = 1558.207 ; gain = 4.605
+Finished Constraint Validation : Time (s): cpu = 00:00:30 ; elapsed = 00:00:47 . Memory (MB): peak = 1558.207 ; gain = 250.133
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 1558.207 ; gain = 250.133
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  C:/Users/Ethan/Documents/GitHub/SDP_Dream_Team_2026-27/FPGA/led_blink/led_blink.runs/design_1_xbar_0_synth_1/dont_touch.xdc, line 9).
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 1558.207 ; gain = 250.133
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:32 ; elapsed = 00:00:49 . Memory (MB): peak = 1558.207 ; gain = 250.133
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:56 . Memory (MB): peak = 1558.207 ; gain = 250.133
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:50 ; elapsed = 00:01:11 . Memory (MB): peak = 1558.207 ; gain = 250.133
+Finished Timing Optimization : Time (s): cpu = 00:00:54 ; elapsed = 00:01:15 . Memory (MB): peak = 1558.207 ; gain = 250.133
+Finished Technology Mapping : Time (s): cpu = 00:00:54 ; elapsed = 00:01:16 . Memory (MB): peak = 1558.207 ; gain = 250.133
+Finished IO Insertion : Time (s): cpu = 00:01:00 ; elapsed = 00:01:26 . Memory (MB): peak = 1558.207 ; gain = 250.133
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:00 ; elapsed = 00:01:26 . Memory (MB): peak = 1558.207 ; gain = 250.133
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:00 ; elapsed = 00:01:26 . Memory (MB): peak = 1558.207 ; gain = 250.133
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:00 ; elapsed = 00:01:26 . Memory (MB): peak = 1558.207 ; gain = 250.133
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:00 ; elapsed = 00:01:26 . Memory (MB): peak = 1558.207 ; gain = 250.133
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:00 ; elapsed = 00:01:26 . Memory (MB): peak = 1558.207 ; gain = 250.133
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |    32|
+|2     |LUT1    |    40|
+|3     |LUT2    |    14|
+|4     |LUT3    |   152|
+|5     |LUT4    |    93|
+|6     |LUT5    |    95|
+|7     |LUT6    |   301|
+|8     |SRLC32E |     2|
+|9     |FDRE    |   787|
+|10    |FDSE    |    12|
++------+--------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:00 ; elapsed = 00:01:26 . Memory (MB): peak = 1558.207 ; gain = 250.133
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 1558.207 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1566.426 ; gain = 0.000
+synth_design: Time (s): cpu = 00:01:13 ; elapsed = 00:01:56 . Memory (MB): peak = 1566.426 ; gain = 258.352

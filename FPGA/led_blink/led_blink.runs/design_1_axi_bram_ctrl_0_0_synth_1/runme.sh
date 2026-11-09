@@ -11,9 +11,9 @@ echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executi
 exit
 
 if [ -z "$PATH" ]; then
-  PATH=C:/AMDDesignTools/Vivado/2022.1/ids_lite/ISE/bin/nt64;C:/AMDDesignTools/Vivado/2022.1/ids_lite/ISE/lib/nt64:C:/AMDDesignTools/Vivado/2022.1/bin
+  PATH=C:/Xilinx/Vivado/2022.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2022.1/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2022.1/bin
 else
-  PATH=C:/AMDDesignTools/Vivado/2022.1/ids_lite/ISE/bin/nt64;C:/AMDDesignTools/Vivado/2022.1/ids_lite/ISE/lib/nt64:C:/AMDDesignTools/Vivado/2022.1/bin:$PATH
+  PATH=C:/Xilinx/Vivado/2022.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2022.1/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2022.1/bin:$PATH
 fi
 export PATH
 
@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Ethan/Documents/GitHub/Fall2026/SDP_Dream_Team_2026-27/FPGA/led_blink/led_blink.runs/design_1_axi_bram_ctrl_0_0_synth_1'
+HD_PWD='C:/Users/Ethan/Documents/GitHub/SDP_Dream_Team_2026-27/FPGA/led_blink/led_blink.runs/design_1_axi_bram_ctrl_0_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

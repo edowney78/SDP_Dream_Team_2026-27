@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "C:/Users/Ethan/Documents/GitHub/Fall2026/SDP_Dream_Team_2026-27/FPGA/led_blink/led_blink.runs/impl_1/design_1_wrapper.tcl"
+  variable script "C:/Users/Ethan/Documents/GitHub/SDP_Dream_Team_2026-27/FPGA/led_blink/led_blink.runs/impl_1/design_1_wrapper.tcl"
   variable category "vivado_impl"
 }
 
@@ -126,26 +126,24 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param chipscope.maxJobs 3
+  set_param chipscope.maxJobs 1
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7z020clg484-1
-  set_property board_part_repo_paths {C:/Users/Ethan/sdp26-29-mine/software/dev/ethan-vivado-boards-master} [current_project]
-  set_property board_part digilentinc.com:eclypse-z7:part0:1.1 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir C:/Users/Ethan/Documents/GitHub/Fall2026/SDP_Dream_Team_2026-27/FPGA/led_blink/led_blink.cache/wt [current_project]
-  set_property parent.project_path C:/Users/Ethan/Documents/GitHub/Fall2026/SDP_Dream_Team_2026-27/FPGA/led_blink/led_blink.xpr [current_project]
-  set_property ip_output_repo C:/Users/Ethan/Documents/GitHub/Fall2026/SDP_Dream_Team_2026-27/FPGA/led_blink/led_blink.cache/ip [current_project]
+  set_property webtalk.parent_dir C:/Users/Ethan/Documents/GitHub/SDP_Dream_Team_2026-27/FPGA/led_blink/led_blink.cache/wt [current_project]
+  set_property parent.project_path C:/Users/Ethan/Documents/GitHub/SDP_Dream_Team_2026-27/FPGA/led_blink/led_blink.xpr [current_project]
+  set_property ip_output_repo C:/Users/Ethan/Documents/GitHub/SDP_Dream_Team_2026-27/FPGA/led_blink/led_blink.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet C:/Users/Ethan/Documents/GitHub/Fall2026/SDP_Dream_Team_2026-27/FPGA/led_blink/led_blink.runs/synth_1/design_1_wrapper.dcp
+  add_files -quiet C:/Users/Ethan/Documents/GitHub/SDP_Dream_Team_2026-27/FPGA/led_blink/led_blink.runs/synth_1/design_1_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -limit 0
   set_param project.isImplRun true
-  add_files C:/Users/Ethan/Documents/GitHub/Fall2026/SDP_Dream_Team_2026-27/FPGA/led_blink/led_blink.srcs/sources_1/bd/design_1/design_1.bd
+  add_files C:/Users/Ethan/Documents/GitHub/SDP_Dream_Team_2026-27/FPGA/led_blink/led_blink.srcs/sources_1/bd/design_1/design_1.bd
   set_param project.isImplRun false
 OPTRACE "read constraints: implementation" START { }
 OPTRACE "read constraints: implementation" END { }
