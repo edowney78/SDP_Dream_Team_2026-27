@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_rx_wrapper_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_dma_pkg" />
+            <top_module name="axi_vip_pkg" />
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lib_pkg" />
+            <top_module name="pkgtwi_utils" />
+            <top_module name="pkgzmoddigitizer" />
+            <top_module name="std" />
+            <top_module name="tb_rx_wrapper" />
+            <top_module name="vcomponents" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="191.301 ns"></ZoomEndTime>
+      <Cursor1Time time="2.400 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="642"></NameColumnWidth>
+      <ValueColumnWidth column_width="253"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="47" />
+   <wvobject fp_name="/tb_rx_wrapper/ps_clk_drv" type="logic">
+      <obj_property name="ElementShortName">ps_clk_drv</obj_property>
+      <obj_property name="ObjectShortName">ps_clk_drv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/ps_porb_drv" type="logic">
+      <obj_property name="ElementShortName">ps_porb_drv</obj_property>
+      <obj_property name="ObjectShortName">ps_porb_drv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/ps_srstb_drv" type="logic">
+      <obj_property name="ElementShortName">ps_srstb_drv</obj_property>
+      <obj_property name="ObjectShortName">ps_srstb_drv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/FIXED_IO_ps_clk" type="logic">
+      <obj_property name="ElementShortName">FIXED_IO_ps_clk</obj_property>
+      <obj_property name="ObjectShortName">FIXED_IO_ps_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/FIXED_IO_ps_porb" type="logic">
+      <obj_property name="ElementShortName">FIXED_IO_ps_porb</obj_property>
+      <obj_property name="ObjectShortName">FIXED_IO_ps_porb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/FIXED_IO_ps_srstb" type="logic">
+      <obj_property name="ElementShortName">FIXED_IO_ps_srstb</obj_property>
+      <obj_property name="ObjectShortName">FIXED_IO_ps_srstb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/dco_clk_drv" type="logic">
+      <obj_property name="ElementShortName">dco_clk_drv</obj_property>
+      <obj_property name="ObjectShortName">dco_clk_drv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/DcoClkIn" type="logic">
+      <obj_property name="ElementShortName">DcoClkIn</obj_property>
+      <obj_property name="ObjectShortName">DcoClkIn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/SDR_Data" type="array">
+      <obj_property name="ElementShortName">SDR_Data[13:0]</obj_property>
+      <obj_property name="ObjectShortName">SDR_Data[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/GPIO1" type="array">
+      <obj_property name="ElementShortName">GPIO1[0:0]</obj_property>
+      <obj_property name="ObjectShortName">GPIO1[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/GPIO4" type="array">
+      <obj_property name="ElementShortName">GPIO4[0:0]</obj_property>
+      <obj_property name="ObjectShortName">GPIO4[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/DDR_addr" type="array">
+      <obj_property name="ElementShortName">DDR_addr[14:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR_addr[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/DDR_ba" type="array">
+      <obj_property name="ElementShortName">DDR_ba[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR_ba[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/DDR_cas_n" type="logic">
+      <obj_property name="ElementShortName">DDR_cas_n</obj_property>
+      <obj_property name="ObjectShortName">DDR_cas_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/DDR_ck_n" type="logic">
+      <obj_property name="ElementShortName">DDR_ck_n</obj_property>
+      <obj_property name="ObjectShortName">DDR_ck_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/DDR_ck_p" type="logic">
+      <obj_property name="ElementShortName">DDR_ck_p</obj_property>
+      <obj_property name="ObjectShortName">DDR_ck_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/DDR_cke" type="logic">
+      <obj_property name="ElementShortName">DDR_cke</obj_property>
+      <obj_property name="ObjectShortName">DDR_cke</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/DDR_cs_n" type="logic">
+      <obj_property name="ElementShortName">DDR_cs_n</obj_property>
+      <obj_property name="ObjectShortName">DDR_cs_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/DDR_dm" type="array">
+      <obj_property name="ElementShortName">DDR_dm[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR_dm[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/DDR_dq" type="array">
+      <obj_property name="ElementShortName">DDR_dq[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR_dq[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/DDR_dqs_n" type="array">
+      <obj_property name="ElementShortName">DDR_dqs_n[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR_dqs_n[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/DDR_dqs_p" type="array">
+      <obj_property name="ElementShortName">DDR_dqs_p[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR_dqs_p[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/DDR_odt" type="logic">
+      <obj_property name="ElementShortName">DDR_odt</obj_property>
+      <obj_property name="ObjectShortName">DDR_odt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/DDR_ras_n" type="logic">
+      <obj_property name="ElementShortName">DDR_ras_n</obj_property>
+      <obj_property name="ObjectShortName">DDR_ras_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/DDR_reset_n" type="logic">
+      <obj_property name="ElementShortName">DDR_reset_n</obj_property>
+      <obj_property name="ObjectShortName">DDR_reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/DDR_we_n" type="logic">
+      <obj_property name="ElementShortName">DDR_we_n</obj_property>
+      <obj_property name="ObjectShortName">DDR_we_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/FIXED_IO_ddr_vrn" type="logic">
+      <obj_property name="ElementShortName">FIXED_IO_ddr_vrn</obj_property>
+      <obj_property name="ObjectShortName">FIXED_IO_ddr_vrn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/FIXED_IO_ddr_vrp" type="logic">
+      <obj_property name="ElementShortName">FIXED_IO_ddr_vrp</obj_property>
+      <obj_property name="ObjectShortName">FIXED_IO_ddr_vrp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/FIXED_IO_mio" type="array">
+      <obj_property name="ElementShortName">FIXED_IO_mio[53:0]</obj_property>
+      <obj_property name="ObjectShortName">FIXED_IO_mio[53:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/CDCE_IIC_scl" type="logic">
+      <obj_property name="ElementShortName">CDCE_IIC_scl</obj_property>
+      <obj_property name="ObjectShortName">CDCE_IIC_scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/CDCE_IIC_sda" type="logic">
+      <obj_property name="ElementShortName">CDCE_IIC_sda</obj_property>
+      <obj_property name="ObjectShortName">CDCE_IIC_sda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/CG_InputClk_n" type="logic">
+      <obj_property name="ElementShortName">CG_InputClk_n</obj_property>
+      <obj_property name="ObjectShortName">CG_InputClk_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/CG_InputClk_p" type="logic">
+      <obj_property name="ElementShortName">CG_InputClk_p</obj_property>
+      <obj_property name="ObjectShortName">CG_InputClk_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/aHW_SW_CTRL" type="logic">
+      <obj_property name="ElementShortName">aHW_SW_CTRL</obj_property>
+      <obj_property name="ObjectShortName">aHW_SW_CTRL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/aREFSEL" type="logic">
+      <obj_property name="ElementShortName">aREFSEL</obj_property>
+      <obj_property name="ObjectShortName">aREFSEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/aZmodSync" type="logic">
+      <obj_property name="ElementShortName">aZmodSync</obj_property>
+      <obj_property name="ObjectShortName">aZmodSync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/sPDNout_n" type="logic">
+      <obj_property name="ElementShortName">sPDNout_n</obj_property>
+      <obj_property name="ObjectShortName">sPDNout_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/sZmodSDR_CS" type="logic">
+      <obj_property name="ElementShortName">sZmodSDR_CS</obj_property>
+      <obj_property name="ObjectShortName">sZmodSDR_CS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/sZmodSDR_SDIO" type="logic">
+      <obj_property name="ElementShortName">sZmodSDR_SDIO</obj_property>
+      <obj_property name="ObjectShortName">sZmodSDR_SDIO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/sZmodSDR_Sclk" type="logic">
+      <obj_property name="ElementShortName">sZmodSDR_Sclk</obj_property>
+      <obj_property name="ObjectShortName">sZmodSDR_Sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/dut/rx_i/axis_data_fifo/M_AXIS" type="protoinst">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="children_use_element_short_name">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <obj_property name="EnumTransactionColorTable">fff,fff=blank</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00E600</obj_property>
+      <obj_property name="Render_Data">/tb_rx_wrapper/dut/rx_i/axis_data_fifo/M_AXIS.streamWaveData</obj_property>
+      <obj_property name="Number_Overlay">2</obj_property>
+      <obj_property name="Overlay_Object_0">/tb_rx_wrapper/dut/rx_i/axis_data_fifo/M_AXIS.linkStarve</obj_property>
+      <obj_property name="Overlay_Color_0">#99E600</obj_property>
+      <obj_property name="Overlay_Object_1">/tb_rx_wrapper/dut/rx_i/axis_data_fifo/M_AXIS.linkStall</obj_property>
+      <obj_property name="Overlay_Color_1">#E64C00</obj_property>
+      <obj_property name="Detail_Data">/tb_rx_wrapper/dut/rx_i/axis_data_fifo/M_AXIS.streamTooltipData</obj_property>
+      <obj_property name="ElementShortName">M_AXIS</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/dut/rx_i/processing_system7/S_AXI_HP0" type="protoinst">
+      <obj_property name="ElementShortName">S_AXI_HP0</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_HP0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/dut/rx_i/processing_system7/M_AXI_GP0" type="protoinst">
+      <obj_property name="ElementShortName">M_AXI_GP0</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_GP0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/dut/rx_i/axis_data_fifo/S_AXIS" type="protoinst">
+      <obj_property name="children_use_element_short_name">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <obj_property name="EnumTransactionColorTable">fff,fff=blank</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00E600</obj_property>
+      <obj_property name="Render_Data">/tb_rx_wrapper/dut/rx_i/axis_data_fifo/S_AXIS.streamWaveData</obj_property>
+      <obj_property name="Number_Overlay">2</obj_property>
+      <obj_property name="Overlay_Object_0">/tb_rx_wrapper/dut/rx_i/axis_data_fifo/S_AXIS.linkStarve</obj_property>
+      <obj_property name="Overlay_Color_0">#99E600</obj_property>
+      <obj_property name="Overlay_Object_1">/tb_rx_wrapper/dut/rx_i/axis_data_fifo/S_AXIS.linkStall</obj_property>
+      <obj_property name="Overlay_Color_1">#E64C00</obj_property>
+      <obj_property name="Detail_Data">/tb_rx_wrapper/dut/rx_i/axis_data_fifo/S_AXIS.streamTooltipData</obj_property>
+      <obj_property name="ElementShortName">S_AXIS</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/dut/rx_i/ZmodSDRController/DataStream" type="protoinst">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="children_use_element_short_name">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <obj_property name="EnumTransactionColorTable">fff,fff=blank</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00E600</obj_property>
+      <obj_property name="Render_Data">/tb_rx_wrapper/dut/rx_i/ZmodSDRController/DataStream.streamWaveData</obj_property>
+      <obj_property name="Number_Overlay">2</obj_property>
+      <obj_property name="Overlay_Object_0">/tb_rx_wrapper/dut/rx_i/ZmodSDRController/DataStream.linkStarve</obj_property>
+      <obj_property name="Overlay_Color_0">#99E600</obj_property>
+      <obj_property name="Overlay_Object_1">/tb_rx_wrapper/dut/rx_i/ZmodSDRController/DataStream.linkStall</obj_property>
+      <obj_property name="Overlay_Color_1">#E64C00</obj_property>
+      <obj_property name="Detail_Data">/tb_rx_wrapper/dut/rx_i/ZmodSDRController/DataStream.streamTooltipData</obj_property>
+      <obj_property name="ElementShortName">DataStream</obj_property>
+      <obj_property name="ObjectShortName">DataStream</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/dut/rx_i/axi_dma/M_AXI_S2MM" type="protoinst">
+      <obj_property name="children_use_element_short_name">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <obj_property name="EnumTransactionColorTable">0=blank 1=#D399FF 2=pink</obj_property>
+      <obj_property name="EnumTransactionValueTable">0=blank;1=Read;2=Write;3=Read/Write</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">turquoise</obj_property>
+      <obj_property name="Render_Data">/tb_rx_wrapper/dut/rx_i/axi_dma/M_AXI_S2MM.readWriteSummary</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CellHeight">36</obj_property>
+      <obj_property name="ElementShortName">M_AXI_S2MM</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_S2MM</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rx_wrapper/dut/rx_i/axi_dma/S_AXIS_S2MM" type="protoinst">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="children_use_element_short_name">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <obj_property name="EnumTransactionColorTable">fff,fff=blank</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00E600</obj_property>
+      <obj_property name="Render_Data">/tb_rx_wrapper/dut/rx_i/axi_dma/S_AXIS_S2MM.streamWaveData</obj_property>
+      <obj_property name="Number_Overlay">2</obj_property>
+      <obj_property name="Overlay_Object_0">/tb_rx_wrapper/dut/rx_i/axi_dma/S_AXIS_S2MM.linkStarve</obj_property>
+      <obj_property name="Overlay_Color_0">#99E600</obj_property>
+      <obj_property name="Overlay_Object_1">/tb_rx_wrapper/dut/rx_i/axi_dma/S_AXIS_S2MM.linkStall</obj_property>
+      <obj_property name="Overlay_Color_1">#E64C00</obj_property>
+      <obj_property name="Detail_Data">/tb_rx_wrapper/dut/rx_i/axi_dma/S_AXIS_S2MM.streamTooltipData</obj_property>
+      <obj_property name="ElementShortName">S_AXIS_S2MM</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_S2MM</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

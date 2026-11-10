@@ -1,0 +1,136 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Mar  3 12:03:37 2026
+# Process ID: 64564
+# Current directory: C:/Users/mines/sdp26-29/software/dev/eclypse_rx/eclypse_rx.runs/impl_1
+# Command line: vivado.exe -log rx_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source rx_wrapper.tcl -notrace
+# Log file: C:/Users/mines/sdp26-29/software/dev/eclypse_rx/eclypse_rx.runs/impl_1/rx_wrapper.vdi
+# Journal file: C:/Users/mines/sdp26-29/software/dev/eclypse_rx/eclypse_rx.runs/impl_1\vivado.jou
+# Running On: Minnos, OS: Windows, CPU Frequency: 3302 MHz, CPU Physical cores: 8, Host memory: 33957 MB
+#-----------------------------------------------------------
+source rx_wrapper.tcl -notrace
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {WARNING}' to undo this change.
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'CRITICAL WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {CRITICAL WARNING}' to undo this change.
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1624.039 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.400 . Memory (MB): peak = 1624.039 ; gain = 0.000
+get_clocks: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2215.785 ; gain = 591.746
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 2215.785 ; gain = 0.000
+link_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:46 . Memory (MB): peak = 2215.785 ; gain = 591.746
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 2560.820 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 2861.250 ; gain = 0.000
+opt_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:53 . Memory (MB): peak = 2861.250 ; gain = 645.465
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.222 . Memory (MB): peak = 2861.250 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 2861.250 ; gain = 0.000
+report_drc: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 2861.250 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 2861.250 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 2861.250 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 2861.250 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.022 . Memory (MB): peak = 2861.250 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.022 . Memory (MB): peak = 2861.250 ; gain = 0.000
+place_design: Time (s): cpu = 00:01:46 ; elapsed = 00:01:25 . Memory (MB): peak = 2861.250 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:08 ; elapsed = 00:00:03 . Memory (MB): peak = 2861.250 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 2861.250 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 2861.250 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 2861.250 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 2861.250 ; gain = 0.000
+phys_opt_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 2861.250 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:08 ; elapsed = 00:00:03 . Memory (MB): peak = 2861.250 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2861.250 ; gain = 0.000
+
+Checksum: PlaceDB: deac45c6 ConstDB: 0 ShapeSum: 159491c9 RouteDB: 0
+Post Restoration Checksum: NetGraph: 91d6c1c0 NumContArr: 2ea5ad78 Constraints: 0 Timing: 0
+ Number of Nodes with overlaps = 0
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 32647
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 32646
+  Number of Partially Routed Nets     = 1
+  Number of Node Overlaps             = 0
+
+ Number of Nodes with overlaps = 2241
+ Number of Nodes with overlaps = 47
+ Number of Nodes with overlaps = 14
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+ Number of Nodes with overlaps = 9
+ Number of Nodes with overlaps = 0
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 5.72932 %
+  Global Horizontal Routing Utilization  = 6.95791 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 52.2523%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 57.6577%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 61.7647%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 61.7647%, No Congested Regions.
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+
+
+ Verification completed successfully
+
+Routing Is Done.
+route_design: Time (s): cpu = 00:05:51 ; elapsed = 00:05:10 . Memory (MB): peak = 3154.789 ; gain = 293.539
+Write XDEF Complete: Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 3154.789 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 3154.789 ; gain = 0.000
+report_drc: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 3154.789 ; gain = 0.000
+report_methodology: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 3154.789 ; gain = 0.000
+report_power: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 3154.789 ; gain = 0.000
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Mar  3 12:14:14 2026
+# Process ID: 80544
+# Current directory: C:/Users/mines/sdp26-29/software/dev/eclypse_rx/eclypse_rx.runs/impl_1
+# Command line: vivado.exe -log rx_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source rx_wrapper.tcl -notrace
+# Log file: C:/Users/mines/sdp26-29/software/dev/eclypse_rx/eclypse_rx.runs/impl_1/rx_wrapper.vdi
+# Journal file: C:/Users/mines/sdp26-29/software/dev/eclypse_rx/eclypse_rx.runs/impl_1\vivado.jou
+# Running On: Minnos, OS: Windows, CPU Frequency: 3302 MHz, CPU Physical cores: 8, Host memory: 33957 MB
+#-----------------------------------------------------------
+source rx_wrapper.tcl -notrace
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {WARNING}' to undo this change.
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'CRITICAL WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {CRITICAL WARNING}' to undo this change.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.422 . Memory (MB): peak = 1623.199 ; gain = 0.000
+Read XDEF Files: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2114.301 ; gain = 27.242
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2114.301 ; gain = 27.242
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 2114.301 ; gain = 0.000
+open_checkpoint: Time (s): cpu = 00:00:31 ; elapsed = 00:00:37 . Memory (MB): peak = 2114.918 ; gain = 491.719
+write_bitstream: Time (s): cpu = 00:00:52 ; elapsed = 00:00:38 . Memory (MB): peak = 2753.707 ; gain = 617.957

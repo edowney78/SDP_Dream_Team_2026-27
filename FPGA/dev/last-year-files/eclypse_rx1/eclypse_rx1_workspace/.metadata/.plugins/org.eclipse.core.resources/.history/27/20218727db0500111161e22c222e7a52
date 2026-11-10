@@ -1,0 +1,81 @@
+#include "xaxidma.h"
+#include "xparameters.h"
+#include "xil_printf.h"
+#include "xil_cache.h"
+
+#define DMA_DEV_ID      XPAR_AXIDMA_0_DEVICE_ID
+#define DDR_BASE_ADDR   XPAR_PS7_DDR_0_S_AXI_BASEADDR
+#define RX_BUFFER_BASE  (DDR_BASE_ADDR + 0x01000000)   // 16MB offset
+#define RX_BUFFER_SIZE  (1024 * 4)  // bytes (1024 samples * 4 bytes each)
+
+int main()
+{
+    XAxiDma AxiDma;
+    XAxiDma_Config *CfgPtr;
+    int Status;
+
+    xil_printf("Initializing DMA...\n");
+
+    // Look up DMA config
+    CfgPtr = XAxiDma_LookupConfig(DMA_DEV_ID);
+    if (!CfgPtr) {
+        xil_printf("No DMA config found.\n");
+        return XST_FAILURE;
+    }
+
+    // Initialize DMA
+    Status = XAxiDma_CfgInitialize(&AxiDma, CfgPtr);
+    if (Status != XST_SUCCESS) {
+        xil_printf("DMA init failed.\n");
+        return XST_FAILURE;
+    }
+
+    // Ensure DMA is in simple mode
+    if (XAxiDma_HasSg(&AxiDma)) {
+        xil_printf("DMA is in SG mode, expected simple mode.\n");
+        return XST_FAILURE;
+    }
+
+    // Flush cache for receive buffer
+    Xil_DCacheFlushRange(RX_BUFFER_BASE, RX_BUFFER_SIZE);
+
+    xil_printf("Starting S2MM transfer...\n");
+
+    // Start S2MM transfer
+    Status = XAxiDma_SimpleTransfer(
+        &AxiDma,
+        (UINTPTR)RX_BUFFER_BASE,
+        RX_BUFFER_SIZE,
+        XAXIDMA_DEVICE_TO_DMA
+    );
+
+    u32 statusReg = XAxiDma_ReadReg(CfgPtr->BaseAddr, XAXIDMA_SR_OFFSET);
+    xil_printf("DMA S2MM status: %08x\n", statusReg);
+
+    if (Status != XST_SUCCESS) {
+        xil_printf("DMA transfer failed.\n");
+        return XST_FAILURE;
+    }
+
+    xil_printf("Waiting for DMA to finish...\n");
+
+    // Poll until DMA is done
+    while (XAxiDma_Busy(&AxiDma, XAXIDMA_DEVICE_TO_DMA)) {
+        // spin
+    }
+
+    xil_printf("DMA transfer complete.\n");
+
+    // Invalidate cache so CPU sees updated memory
+    Xil_DCacheInvalidateRange(RX_BUFFER_BASE, RX_BUFFER_SIZE);
+
+    // Print first few samples
+    u32 *RxBuffer = (u32 *)RX_BUFFER_BASE;
+    xil_printf("First 10 samples:\n");
+    for (int i = 0; i < 10; i++) {
+        xil_printf("%d: %08x\n", i, RxBuffer[i]);
+    }
+
+    xil_printf("Done.\n");
+    return XST_SUCCESS;
+}

@@ -1,0 +1,16 @@
+17:02:20 DEBUG : Logs will be stored at 'C:/Users/mines/sdp26-29/software/dev/continuous/IDE.log'.
+17:02:25 INFO  : Registering command handlers for Vitis TCF services
+17:02:25 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\mines\sdp26-29\software\dev\continuous\temp_xsdb_launch_script.tcl
+17:02:25 INFO  : Platform repository initialization has completed.
+17:02:28 INFO  : XSCT server has started successfully.
+17:02:28 INFO  : plnx-install-location is set to ''
+17:02:28 INFO  : Successfully done setting XSCT server connection channel  
+17:02:28 INFO  : Successfully done query RDI_DATADIR 
+17:02:28 INFO  : Successfully done setting workspace for the tool. 
+17:07:36 INFO  : Result from executing command 'getProjects': continuous
+17:07:36 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+17:09:46 INFO  : Result from executing command 'getProjects': continuous
+17:09:46 INFO  : Result from executing command 'getPlatforms': continuous|C:/Users/mines/sdp26-29/software/dev/continuous/continuous/export/continuous/continuous.xpfm;xilinx_vck190_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+17:20:52 INFO  : Checking for BSP changes to sync application flags for project 'continuous_app'...
+17:22:26 INFO  : Checking for BSP changes to sync application flags for project 'continuous_app'...
+17:33:25 INFO  : Checking for BSP changes to sync application flags for project 'continuous_app'...

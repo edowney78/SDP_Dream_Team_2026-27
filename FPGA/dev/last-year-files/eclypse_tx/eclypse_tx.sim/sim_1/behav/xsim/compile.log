@@ -1,0 +1,79 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_processing_system7_0_0/sim/tx_processing_system7_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tx_processing_system7_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_xlconstant_0_0/sim/tx_xlconstant_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tx_xlconstant_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_xbar_0/sim/tx_xbar_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tx_xbar_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_auto_pc_0/sim/tx_auto_pc_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tx_auto_pc_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_auto_pc_1/sim/tx_auto_pc_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tx_auto_pc_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_auto_us_0/sim/tx_auto_us_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tx_auto_us_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_axis_data_fifo_0_0/sim/tx_axis_data_fifo_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tx_axis_data_fifo_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_xlconcat_0_0/sim/tx_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tx_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_clk_wiz_1_0/tx_clk_wiz_1_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tx_clk_wiz_1_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_clk_wiz_1_0/tx_clk_wiz_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tx_clk_wiz_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_util_vector_logic_0_2/sim/tx_util_vector_logic_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tx_util_vector_logic_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_system_ila_0_0/bd_0/ip/ip_0/sim/bd_ddb0_ila_lib_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_ddb0_ila_lib_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_system_ila_0_0/bd_0/ip/ip_1/bd_ddb0_g_inst_0_gigantic_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_ddb0_g_inst_0_gigantic_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_system_ila_0_0/bd_0/ip/ip_1/sim/bd_ddb0_g_inst_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_ddb0_g_inst_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_system_ila_0_0/bd_0/sim/bd_ddb0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_ddb0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_system_ila_0_0/sim/tx_system_ila_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tx_system_ila_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_system_ila_1_0/bd_0/ip/ip_0/sim/bd_1de1_ila_lib_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_1de1_ila_lib_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_system_ila_1_0/bd_0/ip/ip_1/bd_1de1_g_inst_0_gigantic_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_1de1_g_inst_0_gigantic_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_system_ila_1_0/bd_0/ip/ip_1/sim/bd_1de1_g_inst_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_1de1_g_inst_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_system_ila_1_0/bd_0/sim/bd_1de1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_1de1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_system_ila_1_0/sim/tx_system_ila_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tx_system_ila_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_system_ila_2_0/bd_0/ip/ip_0/sim/bd_1d11_ila_lib_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_1d11_ila_lib_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_system_ila_2_0/bd_0/sim/bd_1d11.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_1d11
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_system_ila_2_0/sim/tx_system_ila_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tx_system_ila_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/sim/tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m00_couplers_imp_RYI9JY
+INFO: [VRFC 10-311] analyzing module m01_couplers_imp_1YV4ZAP
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_1K0W65U
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_R7XR58
+INFO: [VRFC 10-311] analyzing module tx
+INFO: [VRFC 10-311] analyzing module tx_axi_mem_intercon_0
+INFO: [VRFC 10-311] analyzing module tx_ps7_0_axi_periph_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.gen/sources_1/bd/tx/hdl/tx_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tx_wrapper
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_axi_dma_0_0/sim/tx_axi_dma_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tx_axi_dma_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ipshared/9ebe/src/PkgZmodDAC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ipshared/9ebe/src/ADI_SPI.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ADI_SPI'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ipshared/9ebe/src/ConfigDAC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ConfigDAC'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ipshared/9ebe/src/GainOffsetCalib.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'GainOffsetCalib'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ipshared/9ebe/src/SyncAsync.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SyncAsync'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ipshared/9ebe/src/ResetBridge.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ResetBridge'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ipshared/9ebe/src/SyncBase.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SyncBase'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ipshared/9ebe/src/ZmodAWG_1411_Controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ZmodAWG_1411_Controller'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_ZmodAWGController_0_0/sim/tx_ZmodAWGController_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tx_ZmodAWGController_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx.ip_user_files/bd/tx/ip/tx_rst_ps7_0_100M_0/sim/tx_rst_ps7_0_100M_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tx_rst_ps7_0_100M_0'

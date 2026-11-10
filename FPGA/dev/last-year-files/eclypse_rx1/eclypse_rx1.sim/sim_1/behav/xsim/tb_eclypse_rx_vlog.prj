@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../eclypse_rx1.gen/sources_1/bd/eclypse_rx/ipshared/ec67/hdl" --include "../../../../eclypse_rx1.gen/sources_1/bd/eclypse_rx/ipshared/5765/hdl" --include "../../../../eclypse_rx1.gen/sources_1/bd/eclypse_rx/ipshared/8713/hdl" --include "C:/Xilinx/Vivado/2022.1/data/xilinx_vip/include" \
+"../../../../eclypse_rx1.srcs/sources_1/new/axis_counter_source.v" \
+"../../../../eclypse_rx1.ip_user_files/bd/eclypse_rx/ip/eclypse_rx_processing_system7_0_0/sim/eclypse_rx_processing_system7_0_0.v" \
+"../../../../eclypse_rx1.ip_user_files/bd/eclypse_rx/ip/eclypse_rx_axis_data_fifo_0_0/sim/eclypse_rx_axis_data_fifo_0_0.v" \
+"../../../../eclypse_rx1.ip_user_files/bd/eclypse_rx/ip/eclypse_rx_axis_counter_source_0_0/sim/eclypse_rx_axis_counter_source_0_0.v" \
+"../../../../eclypse_rx1.ip_user_files/bd/eclypse_rx/ip/eclypse_rx_auto_pc_0/sim/eclypse_rx_auto_pc_0.v" \
+"../../../../eclypse_rx1.ip_user_files/bd/eclypse_rx/ip/eclypse_rx_auto_pc_1/sim/eclypse_rx_auto_pc_1.v" \
+"../../../../eclypse_rx1.ip_user_files/bd/eclypse_rx/ip/eclypse_rx_auto_us_0/sim/eclypse_rx_auto_us_0.v" \
+"../../../../eclypse_rx1.ip_user_files/bd/eclypse_rx/sim/eclypse_rx.v" \
+"../../../../eclypse_rx1.gen/sources_1/bd/eclypse_rx/hdl/eclypse_rx_wrapper.v" \
+
+sv xil_defaultlib  --include "../../../../eclypse_rx1.gen/sources_1/bd/eclypse_rx/ipshared/ec67/hdl" --include "../../../../eclypse_rx1.gen/sources_1/bd/eclypse_rx/ipshared/5765/hdl" --include "../../../../eclypse_rx1.gen/sources_1/bd/eclypse_rx/ipshared/8713/hdl" --include "C:/Xilinx/Vivado/2022.1/data/xilinx_vip/include" \
+"../../../../eclypse_rx1.srcs/sim_1/new/tb_eclypse_rx.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,817 @@
+11:25:14 DEBUG : Logs will be stored at 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/IDE.log'.
+11:25:17 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\mines\sdp26-29\software\dev\eclypse_rx1\eclypse_rx1_workspace\temp_xsdb_launch_script.tcl
+11:25:18 INFO  : Registering command handlers for Vitis TCF services
+11:25:19 INFO  : Platform repository initialization has completed.
+11:25:20 INFO  : XSCT server has started successfully.
+11:25:21 INFO  : plnx-install-location is set to ''
+11:25:21 INFO  : Successfully done setting XSCT server connection channel  
+11:25:21 INFO  : Successfully done query RDI_DATADIR 
+11:25:21 INFO  : Successfully done setting workspace for the tool. 
+11:28:31 INFO  : Result from executing command 'getProjects': eclypsez7_rx1
+11:28:31 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+11:29:08 INFO  : Result from executing command 'getProjects': eclypsez7_rx1
+11:29:08 INFO  : Result from executing command 'getPlatforms': eclypsez7_rx1|C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/eclypsez7_rx1.xpfm;xilinx_vck190_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+11:36:07 INFO  : Checking for BSP changes to sync application flags for project 'eclypse_rx1'...
+11:36:23 INFO  : Checking for BSP changes to sync application flags for project 'eclypse_rx1'...
+11:37:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:37:41 INFO  : Jtag cable 'Digilent Eclypse Z7 210393BB586BA' is selected.
+11:37:41 INFO  : 'jtag frequency' command is executed.
+11:37:41 INFO  : Context for 'APU' is selected.
+11:37:41 INFO  : System reset is completed.
+11:37:44 INFO  : 'after 3000' command is executed.
+11:37:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}' command is executed.
+11:37:47 INFO  : Device configured successfully with "C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit"
+11:37:47 INFO  : Context for 'APU' is selected.
+11:37:47 INFO  : Hardware design and registers information is loaded from 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa'.
+11:37:47 INFO  : 'configparams force-mem-access 1' command is executed.
+11:37:47 INFO  : Context for 'APU' is selected.
+11:37:47 INFO  : Sourcing of 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl' is done.
+11:37:48 INFO  : 'ps7_init' command is executed.
+11:37:48 INFO  : 'ps7_post_config' command is executed.
+11:37:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:37:48 INFO  : The application 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:37:48 INFO  : 'configparams force-mem-access 0' command is executed.
+11:37:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}
+fpga -file C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:37:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:37:48 INFO  : 'con' command is executed.
+11:37:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:37:48 INFO  : Launch script is exported to file 'C:\Users\mines\sdp26-29\software\dev\eclypse_rx1\eclypse_rx1_workspace\eclypse_rx1_system\_ide\scripts\debugger_eclypse_rx1-default.tcl'
+11:38:35 INFO  : Disconnected from the channel tcfchan#2.
+11:38:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:38:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+11:38:45 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+11:40:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:40:03 INFO  : Jtag cable 'Digilent Eclypse Z7 210393BB586BA' is selected.
+11:40:04 INFO  : 'jtag frequency' command is executed.
+11:40:04 INFO  : Context for 'APU' is selected.
+11:40:04 INFO  : System reset is completed.
+11:40:07 INFO  : 'after 3000' command is executed.
+11:40:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}' command is executed.
+11:40:09 INFO  : Device configured successfully with "C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit"
+11:40:09 INFO  : Context for 'APU' is selected.
+11:40:09 INFO  : Hardware design and registers information is loaded from 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa'.
+11:40:09 INFO  : 'configparams force-mem-access 1' command is executed.
+11:40:09 INFO  : Context for 'APU' is selected.
+11:40:10 INFO  : Sourcing of 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl' is done.
+11:40:10 INFO  : 'ps7_init' command is executed.
+11:40:10 INFO  : 'ps7_post_config' command is executed.
+11:40:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:40:10 INFO  : The application 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:40:11 INFO  : 'configparams force-mem-access 0' command is executed.
+11:40:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}
+fpga -file C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:40:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:40:11 INFO  : 'con' command is executed.
+11:40:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:40:11 INFO  : Launch script is exported to file 'C:\Users\mines\sdp26-29\software\dev\eclypse_rx1\eclypse_rx1_workspace\eclypse_rx1_system\_ide\scripts\debugger_eclypse_rx1-default.tcl'
+11:41:29 INFO  : Disconnected from the channel tcfchan#3.
+11:41:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:41:30 INFO  : Jtag cable 'Digilent Eclypse Z7 210393BB586BA' is selected.
+11:41:30 INFO  : 'jtag frequency' command is executed.
+11:41:30 INFO  : Context for 'APU' is selected.
+11:41:30 INFO  : System reset is completed.
+11:41:33 INFO  : 'after 3000' command is executed.
+11:41:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}' command is executed.
+11:41:36 INFO  : Device configured successfully with "C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit"
+11:41:36 INFO  : Context for 'APU' is selected.
+11:41:36 INFO  : Hardware design and registers information is loaded from 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa'.
+11:41:36 INFO  : 'configparams force-mem-access 1' command is executed.
+11:41:36 INFO  : Context for 'APU' is selected.
+11:41:36 INFO  : Sourcing of 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl' is done.
+11:41:36 INFO  : 'ps7_init' command is executed.
+11:41:37 INFO  : 'ps7_post_config' command is executed.
+11:41:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:41:37 INFO  : The application 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:41:37 INFO  : 'configparams force-mem-access 0' command is executed.
+11:41:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}
+fpga -file C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:41:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:41:37 INFO  : 'con' command is executed.
+11:41:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:41:37 INFO  : Launch script is exported to file 'C:\Users\mines\sdp26-29\software\dev\eclypse_rx1\eclypse_rx1_workspace\eclypse_rx1_system\_ide\scripts\debugger_eclypse_rx1-default.tcl'
+11:48:31 INFO  : Disconnected from the channel tcfchan#4.
+11:48:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:48:33 INFO  : Jtag cable 'Digilent Eclypse Z7 210393BB586BA' is selected.
+11:48:33 INFO  : 'jtag frequency' command is executed.
+11:48:33 INFO  : Context for 'APU' is selected.
+11:48:33 INFO  : System reset is completed.
+11:48:36 INFO  : 'after 3000' command is executed.
+11:48:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}' command is executed.
+11:48:38 INFO  : Device configured successfully with "C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit"
+11:48:38 INFO  : Context for 'APU' is selected.
+11:48:38 INFO  : Hardware design and registers information is loaded from 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa'.
+11:48:38 INFO  : 'configparams force-mem-access 1' command is executed.
+11:48:39 INFO  : Context for 'APU' is selected.
+11:48:39 INFO  : Sourcing of 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl' is done.
+11:48:39 INFO  : 'ps7_init' command is executed.
+11:48:39 INFO  : 'ps7_post_config' command is executed.
+11:48:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:48:39 INFO  : The application 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:48:39 INFO  : 'configparams force-mem-access 0' command is executed.
+11:48:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}
+fpga -file C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:48:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:48:40 INFO  : 'con' command is executed.
+11:48:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:48:40 INFO  : Launch script is exported to file 'C:\Users\mines\sdp26-29\software\dev\eclypse_rx1\eclypse_rx1_workspace\eclypse_rx1_system\_ide\scripts\debugger_eclypse_rx1-default.tcl'
+11:55:28 INFO  : Checking for BSP changes to sync application flags for project 'eclypse_rx1'...
+11:55:54 INFO  : Checking for BSP changes to sync application flags for project 'eclypse_rx1'...
+11:56:17 INFO  : Disconnected from the channel tcfchan#5.
+11:56:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:56:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+11:56:27 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+11:56:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:56:46 INFO  : Jtag cable 'Digilent Eclypse Z7 210393BB586BA' is selected.
+11:56:46 INFO  : 'jtag frequency' command is executed.
+11:56:46 INFO  : Context for 'APU' is selected.
+11:56:46 INFO  : System reset is completed.
+11:56:49 INFO  : 'after 3000' command is executed.
+11:56:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}' command is executed.
+11:56:52 INFO  : Device configured successfully with "C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit"
+11:56:52 INFO  : Context for 'APU' is selected.
+11:56:52 INFO  : Hardware design and registers information is loaded from 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa'.
+11:56:52 INFO  : 'configparams force-mem-access 1' command is executed.
+11:56:52 INFO  : Context for 'APU' is selected.
+11:56:52 INFO  : Sourcing of 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl' is done.
+11:56:53 INFO  : 'ps7_init' command is executed.
+11:56:53 INFO  : 'ps7_post_config' command is executed.
+11:56:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:56:53 INFO  : The application 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:56:53 INFO  : 'configparams force-mem-access 0' command is executed.
+11:56:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}
+fpga -file C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:56:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:56:53 INFO  : 'con' command is executed.
+11:56:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:56:53 INFO  : Launch script is exported to file 'C:\Users\mines\sdp26-29\software\dev\eclypse_rx1\eclypse_rx1_workspace\eclypse_rx1_system\_ide\scripts\debugger_eclypse_rx1-default.tcl'
+11:57:24 INFO  : Disconnected from the channel tcfchan#6.
+11:57:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:57:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+11:57:34 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+11:58:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:58:22 INFO  : Jtag cable 'Digilent Eclypse Z7 210393BB586BA' is selected.
+11:58:22 INFO  : 'jtag frequency' command is executed.
+11:58:22 INFO  : Context for 'APU' is selected.
+11:58:22 INFO  : System reset is completed.
+11:58:25 INFO  : 'after 3000' command is executed.
+11:58:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}' command is executed.
+11:58:28 INFO  : Device configured successfully with "C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit"
+11:58:28 INFO  : Context for 'APU' is selected.
+11:58:28 INFO  : Hardware design and registers information is loaded from 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa'.
+11:58:28 INFO  : 'configparams force-mem-access 1' command is executed.
+11:58:28 INFO  : Context for 'APU' is selected.
+11:58:28 INFO  : Sourcing of 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl' is done.
+11:58:28 INFO  : 'ps7_init' command is executed.
+11:58:28 INFO  : 'ps7_post_config' command is executed.
+11:58:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:58:29 INFO  : The application 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:58:29 INFO  : 'configparams force-mem-access 0' command is executed.
+11:58:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}
+fpga -file C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:58:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:58:29 INFO  : 'con' command is executed.
+11:58:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:58:29 INFO  : Launch script is exported to file 'C:\Users\mines\sdp26-29\software\dev\eclypse_rx1\eclypse_rx1_workspace\eclypse_rx1_system\_ide\scripts\debugger_eclypse_rx1-default.tcl'
+12:00:56 INFO  : Disconnected from the channel tcfchan#7.
+12:00:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:01:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+12:01:06 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+12:01:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:02:00 INFO  : Jtag cable 'Digilent Eclypse Z7 210393BB586BA' is selected.
+12:02:00 INFO  : 'jtag frequency' command is executed.
+12:02:00 INFO  : Context for 'APU' is selected.
+12:02:00 INFO  : System reset is completed.
+12:02:03 INFO  : 'after 3000' command is executed.
+12:02:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}' command is executed.
+12:02:05 INFO  : Device configured successfully with "C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit"
+12:02:05 INFO  : Context for 'APU' is selected.
+12:02:05 INFO  : Hardware design and registers information is loaded from 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa'.
+12:02:05 INFO  : 'configparams force-mem-access 1' command is executed.
+12:02:05 INFO  : Context for 'APU' is selected.
+12:02:05 INFO  : Sourcing of 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl' is done.
+12:02:06 INFO  : 'ps7_init' command is executed.
+12:02:06 INFO  : 'ps7_post_config' command is executed.
+12:02:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:02:06 INFO  : The application 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:02:06 INFO  : 'configparams force-mem-access 0' command is executed.
+12:02:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}
+fpga -file C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:02:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:02:06 INFO  : 'con' command is executed.
+12:02:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:02:06 INFO  : Launch script is exported to file 'C:\Users\mines\sdp26-29\software\dev\eclypse_rx1\eclypse_rx1_workspace\eclypse_rx1_system\_ide\scripts\debugger_eclypse_rx1-default.tcl'
+12:03:32 INFO  : Disconnected from the channel tcfchan#8.
+12:05:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:05:56 INFO  : Jtag cable 'Digilent Eclypse Z7 210393BB586BA' is selected.
+12:05:56 INFO  : 'jtag frequency' command is executed.
+12:05:56 INFO  : Context for 'APU' is selected.
+12:05:56 INFO  : System reset is completed.
+12:05:59 INFO  : 'after 3000' command is executed.
+12:05:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}' command is executed.
+12:06:01 INFO  : Device configured successfully with "C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit"
+12:06:01 INFO  : Context for 'APU' is selected.
+12:06:01 INFO  : Hardware design and registers information is loaded from 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa'.
+12:06:01 INFO  : 'configparams force-mem-access 1' command is executed.
+12:06:01 INFO  : Context for 'APU' is selected.
+12:06:01 INFO  : Sourcing of 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl' is done.
+12:06:02 INFO  : 'ps7_init' command is executed.
+12:06:02 INFO  : 'ps7_post_config' command is executed.
+12:06:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:06:02 INFO  : The application 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:06:02 INFO  : 'configparams force-mem-access 0' command is executed.
+12:06:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}
+fpga -file C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:06:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:06:02 INFO  : 'con' command is executed.
+12:06:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:06:02 INFO  : Launch script is exported to file 'C:\Users\mines\sdp26-29\software\dev\eclypse_rx1\eclypse_rx1_workspace\eclypse_rx1_system\_ide\scripts\debugger_eclypse_rx1-default.tcl'
+12:17:14 INFO  : Checking for BSP changes to sync application flags for project 'eclypse_rx1'...
+12:17:27 INFO  : Disconnected from the channel tcfchan#9.
+12:17:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:17:31 INFO  : Jtag cable 'Digilent Eclypse Z7 210393BB586BA' is selected.
+12:17:31 INFO  : 'jtag frequency' command is executed.
+12:17:31 INFO  : Context for 'APU' is selected.
+12:17:31 INFO  : System reset is completed.
+12:17:34 INFO  : 'after 3000' command is executed.
+12:17:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}' command is executed.
+12:17:36 INFO  : Device configured successfully with "C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit"
+12:17:36 INFO  : Context for 'APU' is selected.
+12:17:36 INFO  : Hardware design and registers information is loaded from 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa'.
+12:17:36 INFO  : 'configparams force-mem-access 1' command is executed.
+12:17:36 INFO  : Context for 'APU' is selected.
+12:17:36 INFO  : Sourcing of 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl' is done.
+12:17:37 INFO  : 'ps7_init' command is executed.
+12:17:37 INFO  : 'ps7_post_config' command is executed.
+12:17:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:17:37 INFO  : The application 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:17:37 INFO  : 'configparams force-mem-access 0' command is executed.
+12:17:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}
+fpga -file C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:17:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:17:37 INFO  : 'con' command is executed.
+12:17:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:17:37 INFO  : Launch script is exported to file 'C:\Users\mines\sdp26-29\software\dev\eclypse_rx1\eclypse_rx1_workspace\eclypse_rx1_system\_ide\scripts\debugger_eclypse_rx1-default.tcl'
+12:23:37 INFO  : Checking for BSP changes to sync application flags for project 'eclypse_rx1'...
+12:23:52 INFO  : Disconnected from the channel tcfchan#10.
+12:23:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:24:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+12:24:02 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+12:24:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:24:13 INFO  : Jtag cable 'Digilent Eclypse Z7 210393BB586BA' is selected.
+12:24:13 INFO  : 'jtag frequency' command is executed.
+12:24:13 INFO  : Context for 'APU' is selected.
+12:24:13 INFO  : System reset is completed.
+12:24:16 INFO  : 'after 3000' command is executed.
+12:24:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}' command is executed.
+12:24:19 INFO  : Device configured successfully with "C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit"
+12:24:19 INFO  : Context for 'APU' is selected.
+12:24:19 INFO  : Hardware design and registers information is loaded from 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa'.
+12:24:19 INFO  : 'configparams force-mem-access 1' command is executed.
+12:24:19 INFO  : Context for 'APU' is selected.
+12:24:19 INFO  : Sourcing of 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl' is done.
+12:24:19 INFO  : 'ps7_init' command is executed.
+12:24:19 INFO  : 'ps7_post_config' command is executed.
+12:24:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:24:19 INFO  : The application 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:24:19 INFO  : 'configparams force-mem-access 0' command is executed.
+12:24:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}
+fpga -file C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:24:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:24:19 INFO  : 'con' command is executed.
+12:24:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:24:19 INFO  : Launch script is exported to file 'C:\Users\mines\sdp26-29\software\dev\eclypse_rx1\eclypse_rx1_workspace\eclypse_rx1_system\_ide\scripts\debugger_eclypse_rx1-default.tcl'
+12:35:59 INFO  : Hardware specification for platform project 'eclypsez7_rx1' is updated.
+12:36:22 INFO  : Result from executing command 'getProjects': eclypsez7_rx1
+12:36:22 INFO  : Result from executing command 'getPlatforms': eclypsez7_rx1|C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/eclypsez7_rx1.xpfm;xilinx_vck190_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+12:36:29 INFO  : Checking for BSP changes to sync application flags for project 'eclypse_rx1'...
+12:36:45 INFO  : Disconnected from the channel tcfchan#11.
+12:36:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:36:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+12:36:55 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+12:37:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:37:03 INFO  : Jtag cable 'Digilent Eclypse Z7 210393BB586BA' is selected.
+12:37:03 INFO  : 'jtag frequency' command is executed.
+12:37:03 INFO  : Context for 'APU' is selected.
+12:37:03 INFO  : System reset is completed.
+12:37:06 INFO  : 'after 3000' command is executed.
+12:37:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}' command is executed.
+12:37:08 INFO  : Device configured successfully with "C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit"
+12:37:08 INFO  : Context for 'APU' is selected.
+12:37:08 INFO  : Hardware design and registers information is loaded from 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa'.
+12:37:08 INFO  : 'configparams force-mem-access 1' command is executed.
+12:37:08 INFO  : Context for 'APU' is selected.
+12:37:08 INFO  : Sourcing of 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl' is done.
+12:37:09 INFO  : 'ps7_init' command is executed.
+12:37:09 INFO  : 'ps7_post_config' command is executed.
+12:37:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:37:09 INFO  : The application 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:37:09 INFO  : 'configparams force-mem-access 0' command is executed.
+12:37:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}
+fpga -file C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:37:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:37:09 INFO  : 'con' command is executed.
+12:37:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:37:09 INFO  : Launch script is exported to file 'C:\Users\mines\sdp26-29\software\dev\eclypse_rx1\eclypse_rx1_workspace\eclypse_rx1_system\_ide\scripts\debugger_eclypse_rx1-default.tcl'
+12:42:17 INFO  : Checking for BSP changes to sync application flags for project 'eclypse_rx1'...
+12:42:27 INFO  : Disconnected from the channel tcfchan#13.
+12:42:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:42:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+12:42:38 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+12:42:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:42:43 INFO  : Jtag cable 'Digilent Eclypse Z7 210393BB586BA' is selected.
+12:42:43 INFO  : 'jtag frequency' command is executed.
+12:42:43 INFO  : Context for 'APU' is selected.
+12:42:43 INFO  : System reset is completed.
+12:42:46 INFO  : 'after 3000' command is executed.
+12:42:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}' command is executed.
+12:42:48 INFO  : Device configured successfully with "C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit"
+12:42:48 INFO  : Context for 'APU' is selected.
+12:42:48 INFO  : Hardware design and registers information is loaded from 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa'.
+12:42:48 INFO  : 'configparams force-mem-access 1' command is executed.
+12:42:48 INFO  : Context for 'APU' is selected.
+12:42:48 INFO  : Sourcing of 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl' is done.
+12:42:49 INFO  : 'ps7_init' command is executed.
+12:42:49 INFO  : 'ps7_post_config' command is executed.
+12:42:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:42:49 INFO  : The application 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:42:49 INFO  : 'configparams force-mem-access 0' command is executed.
+12:42:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}
+fpga -file C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:42:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:42:49 INFO  : 'con' command is executed.
+12:42:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:42:49 INFO  : Launch script is exported to file 'C:\Users\mines\sdp26-29\software\dev\eclypse_rx1\eclypse_rx1_workspace\eclypse_rx1_system\_ide\scripts\debugger_eclypse_rx1-default.tcl'
+12:48:27 INFO  : Checking for BSP changes to sync application flags for project 'eclypse_rx1'...
+12:48:57 INFO  : Disconnected from the channel tcfchan#14.
+12:48:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:49:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+12:49:07 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+12:49:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:49:13 INFO  : Jtag cable 'Digilent Eclypse Z7 210393BB586BA' is selected.
+12:49:13 INFO  : 'jtag frequency' command is executed.
+12:49:13 INFO  : Context for 'APU' is selected.
+12:49:13 INFO  : System reset is completed.
+12:49:16 INFO  : 'after 3000' command is executed.
+12:49:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}' command is executed.
+12:49:19 INFO  : Device configured successfully with "C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit"
+12:49:19 INFO  : Context for 'APU' is selected.
+12:49:19 INFO  : Hardware design and registers information is loaded from 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa'.
+12:49:19 INFO  : 'configparams force-mem-access 1' command is executed.
+12:49:19 INFO  : Context for 'APU' is selected.
+12:49:19 INFO  : Sourcing of 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl' is done.
+12:49:19 INFO  : 'ps7_init' command is executed.
+12:49:19 INFO  : 'ps7_post_config' command is executed.
+12:49:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:49:19 INFO  : The application 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:49:19 INFO  : 'configparams force-mem-access 0' command is executed.
+12:49:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}
+fpga -file C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:49:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:49:19 INFO  : 'con' command is executed.
+12:49:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:49:19 INFO  : Launch script is exported to file 'C:\Users\mines\sdp26-29\software\dev\eclypse_rx1\eclypse_rx1_workspace\eclypse_rx1_system\_ide\scripts\debugger_eclypse_rx1-default.tcl'
+13:07:16 INFO  : Hardware specification for platform project 'eclypsez7_rx1' is updated.
+13:07:42 INFO  : Result from executing command 'getProjects': eclypsez7_rx1
+13:07:42 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+13:07:50 INFO  : Checking for BSP changes to sync application flags for project 'eclypse_rx1'...
+13:08:19 INFO  : Disconnected from the channel tcfchan#15.
+13:08:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:08:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+13:08:29 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+13:08:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:08:39 INFO  : Jtag cable 'Digilent Eclypse Z7 210393BB586BA' is selected.
+13:08:39 INFO  : 'jtag frequency' command is executed.
+13:08:39 INFO  : Context for 'APU' is selected.
+13:08:39 INFO  : System reset is completed.
+13:08:42 INFO  : 'after 3000' command is executed.
+13:08:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}' command is executed.
+13:08:45 INFO  : Device configured successfully with "C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit"
+13:08:45 INFO  : Context for 'APU' is selected.
+13:08:45 INFO  : Hardware design and registers information is loaded from 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa'.
+13:08:45 INFO  : 'configparams force-mem-access 1' command is executed.
+13:08:45 INFO  : Context for 'APU' is selected.
+13:08:45 INFO  : Sourcing of 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl' is done.
+13:08:45 INFO  : 'ps7_init' command is executed.
+13:08:45 INFO  : 'ps7_post_config' command is executed.
+13:08:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:08:45 INFO  : The application 'C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:08:45 INFO  : 'configparams force-mem-access 0' command is executed.
+13:08:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Eclypse Z7 210393BB586BA" && level==0 && jtag_device_ctx=="jsn-Eclypse Z7-210393BB586BA-23727093-0"}
+fpga -file C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/bitstream/eclypse_rx1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/hw/eclypse_rx1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypse_rx1/Debug/eclypse_rx1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:08:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:08:45 INFO  : 'con' command is executed.
+13:08:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:08:45 INFO  : Launch script is exported to file 'C:\Users\mines\sdp26-29\software\dev\eclypse_rx1\eclypse_rx1_workspace\eclypse_rx1_system\_ide\scripts\debugger_eclypse_rx1-default.tcl'
+15:01:00 INFO  : Disconnected from the channel tcfchan#17.

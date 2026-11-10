@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_digitizer_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_dma_pkg" />
+            <top_module name="axi_vip_pkg" />
+            <top_module name="glbl" />
+            <top_module name="lib_pkg" />
+            <top_module name="pkgtwi_utils" />
+            <top_module name="pkgzmoddigitizer" />
+            <top_module name="std" />
+            <top_module name="tb_digitizer" />
+            <top_module name="vcomponents" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,028.948 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,120.599 ns"></ZoomEndTime>
+      <Cursor1Time time="1,073.948 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="680"></NameColumnWidth>
+      <ValueColumnWidth column_width="295"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/tb_digitizer/dut/eclypse_rx_i/axi_dma_0/S_AXIS_S2MM" type="protoinst">
+      <obj_property name="ElementShortName">S_AXIS_S2MM</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_S2MM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digitizer/dut/eclypse_rx_i/ZmodDigitizerControl_0/DataStream" type="protoinst">
+      <obj_property name="children_use_element_short_name">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <obj_property name="EnumTransactionColorTable">fff,fff=blank</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00E600</obj_property>
+      <obj_property name="Render_Data">/tb_digitizer/dut/eclypse_rx_i/ZmodDigitizerControl_0/DataStream.streamWaveData</obj_property>
+      <obj_property name="Number_Overlay">2</obj_property>
+      <obj_property name="Overlay_Object_0">/tb_digitizer/dut/eclypse_rx_i/ZmodDigitizerControl_0/DataStream.linkStarve</obj_property>
+      <obj_property name="Overlay_Color_0">#99E600</obj_property>
+      <obj_property name="Overlay_Object_1">/tb_digitizer/dut/eclypse_rx_i/ZmodDigitizerControl_0/DataStream.linkStall</obj_property>
+      <obj_property name="Overlay_Color_1">#E64C00</obj_property>
+      <obj_property name="Detail_Data">/tb_digitizer/dut/eclypse_rx_i/ZmodDigitizerControl_0/DataStream.streamTooltipData</obj_property>
+      <obj_property name="ElementShortName">DataStream</obj_property>
+      <obj_property name="ObjectShortName">DataStream</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digitizer/dut/eclypse_rx_i/axi_dma_0/M_AXI_S2MM" type="protoinst">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="children_use_element_short_name">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <obj_property name="EnumTransactionColorTable">0=blank 1=#D399FF 2=pink</obj_property>
+      <obj_property name="EnumTransactionValueTable">0=blank;1=Read;2=Write;3=Read/Write</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">turquoise</obj_property>
+      <obj_property name="Render_Data">/tb_digitizer/dut/eclypse_rx_i/axi_dma_0/M_AXI_S2MM.readWriteSummary</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CellHeight">36</obj_property>
+      <obj_property name="ElementShortName">M_AXI_S2MM</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_S2MM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digitizer/dut/eclypse_rx_i/axi_dma_0/S_AXI_LITE" type="protoinst">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="children_use_element_short_name">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <obj_property name="EnumTransactionColorTable">0=blank 1=#D399FF 2=pink</obj_property>
+      <obj_property name="EnumTransactionValueTable">0=blank;1=Read;2=Write;3=Read/Write</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">turquoise</obj_property>
+      <obj_property name="Render_Data">/tb_digitizer/dut/eclypse_rx_i/axi_dma_0/S_AXI_LITE.readWriteSummary</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CellHeight">36</obj_property>
+      <obj_property name="ElementShortName">S_AXI_LITE</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_LITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digitizer/dut/eclypse_rx_i/axis_data_fifo_0/S_AXIS" type="protoinst">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="children_use_element_short_name">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <obj_property name="EnumTransactionColorTable">fff,fff=blank</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00E600</obj_property>
+      <obj_property name="Render_Data">/tb_digitizer/dut/eclypse_rx_i/axis_data_fifo_0/S_AXIS.streamWaveData</obj_property>
+      <obj_property name="Number_Overlay">2</obj_property>
+      <obj_property name="Overlay_Object_0">/tb_digitizer/dut/eclypse_rx_i/axis_data_fifo_0/S_AXIS.linkStarve</obj_property>
+      <obj_property name="Overlay_Color_0">#99E600</obj_property>
+      <obj_property name="Overlay_Object_1">/tb_digitizer/dut/eclypse_rx_i/axis_data_fifo_0/S_AXIS.linkStall</obj_property>
+      <obj_property name="Overlay_Color_1">#E64C00</obj_property>
+      <obj_property name="Detail_Data">/tb_digitizer/dut/eclypse_rx_i/axis_data_fifo_0/S_AXIS.streamTooltipData</obj_property>
+      <obj_property name="ElementShortName">S_AXIS</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digitizer/dut/eclypse_rx_i/axis_data_fifo_0/M_AXIS" type="protoinst">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="children_use_element_short_name">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <obj_property name="EnumTransactionColorTable">fff,fff=blank</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00E600</obj_property>
+      <obj_property name="Render_Data">/tb_digitizer/dut/eclypse_rx_i/axis_data_fifo_0/M_AXIS.streamWaveData</obj_property>
+      <obj_property name="Number_Overlay">2</obj_property>
+      <obj_property name="Overlay_Object_0">/tb_digitizer/dut/eclypse_rx_i/axis_data_fifo_0/M_AXIS.linkStarve</obj_property>
+      <obj_property name="Overlay_Color_0">#99E600</obj_property>
+      <obj_property name="Overlay_Object_1">/tb_digitizer/dut/eclypse_rx_i/axis_data_fifo_0/M_AXIS.linkStall</obj_property>
+      <obj_property name="Overlay_Color_1">#E64C00</obj_property>
+      <obj_property name="Detail_Data">/tb_digitizer/dut/eclypse_rx_i/axis_data_fifo_0/M_AXIS.streamTooltipData</obj_property>
+      <obj_property name="ElementShortName">M_AXIS</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

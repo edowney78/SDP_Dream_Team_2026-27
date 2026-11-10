@@ -1,0 +1,13 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot eclypse_rx_behav xil_defaultlib.eclypse_rx xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <xlconstant_v1_1_7_xlconstant> not found while processing module instance <inst> [C:/Users/mines/sdp26-29/software/dev/eclypse_rx_2/eclypse_rx_2.ip_user_files/bd/eclypse_rx/ip/eclypse_rx_xlconstant_0_1/sim/eclypse_rx_xlconstant_0_1.v:62]
+ERROR: [VRFC 10-2063] Module <axi_protocol_converter_v2_1_26_axi_protocol_converter> not found while processing module instance <inst> [C:/Users/mines/sdp26-29/software/dev/eclypse_rx_2/eclypse_rx_2.ip_user_files/bd/eclypse_rx/ip/eclypse_rx_auto_pc_1/sim/eclypse_rx_auto_pc_1.v:183]
+ERROR: [VRFC 10-2063] Module <axi_dwidth_converter_v2_1_26_top> not found while processing module instance <inst> [C:/Users/mines/sdp26-29/software/dev/eclypse_rx_2/eclypse_rx_2.ip_user_files/bd/eclypse_rx/ip/eclypse_rx_auto_us_0/sim/eclypse_rx_auto_us_0.v:180]
+ERROR: [VRFC 10-2063] Module <axis_data_fifo_v2_0_8_top> not found while processing module instance <inst> [C:/Users/mines/sdp26-29/software/dev/eclypse_rx_2/eclypse_rx_2.ip_user_files/bd/eclypse_rx/ip/eclypse_rx_axis_data_fifo_0_0/sim/eclypse_rx_axis_data_fifo_0_0.v:98]
+ERROR: [VRFC 10-2063] Module <processing_system7_vip_v1_0_14> not found while processing module instance <inst> [C:/Users/mines/sdp26-29/software/dev/eclypse_rx_2/eclypse_rx_2.ip_user_files/bd/eclypse_rx/ip/eclypse_rx_processing_system7_0_1/sim/eclypse_rx_processing_system7_0_1.v:281]
+ERROR: [VRFC 10-2063] Module <util_vector_logic_v2_0_2_util_vector_logic> not found while processing module instance <inst> [C:/Users/mines/sdp26-29/software/dev/eclypse_rx_2/eclypse_rx_2.ip_user_files/bd/eclypse_rx/ip/eclypse_rx_util_vector_logic_0_0/sim/eclypse_rx_util_vector_logic_0_0.v:66]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

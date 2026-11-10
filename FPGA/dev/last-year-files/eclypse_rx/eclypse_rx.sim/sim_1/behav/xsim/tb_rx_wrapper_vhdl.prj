@@ -1,0 +1,22 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../eclypse_rx.ip_user_files/bd/rx/ip/rx_axi_dma_0_1/sim/rx_axi_dma_0_1.vhd" \
+"../../../../eclypse_rx.ip_user_files/bd/rx/ip/rx_rst_ps7_0_100M_0/sim/rx_rst_ps7_0_100M_0.vhd" \
+"../../../../eclypse_rx.ip_user_files/bd/rx/ipshared/a9e0/src/PkgZmodDigitizer.vhd" \
+"../../../../eclypse_rx.ip_user_files/bd/rx/ipshared/a9e0/src/ADI_SPI.vhd" \
+"../../../../eclypse_rx.ip_user_files/bd/rx/ipshared/a9e0/src/ConfigADC.vhd" \
+"../../../../eclypse_rx.ip_user_files/bd/rx/ipshared/a9e0/src/PkgTWI_Utils.vhd" \
+"../../../../eclypse_rx.ip_user_files/bd/rx/ipshared/a9e0/src/TWI_Ctl.vhd" \
+"../../../../eclypse_rx.ip_user_files/bd/rx/ipshared/a9e0/src/SyncAsync.vhd" \
+"../../../../eclypse_rx.ip_user_files/bd/rx/ipshared/a9e0/src/ResetBridge.vhd" \
+"../../../../eclypse_rx.ip_user_files/bd/rx/ipshared/a9e0/src/ConfigClockGen.vhd" \
+"../../../../eclypse_rx.ip_user_files/bd/rx/ipshared/a9e0/src/SyncBase.vhd" \
+"../../../../eclypse_rx.ip_user_files/bd/rx/ipshared/a9e0/src/HandshakeData.vhd" \
+"../../../../eclypse_rx.ip_user_files/bd/rx/ipshared/a9e0/src/DataPath.vhd" \
+"../../../../eclypse_rx.ip_user_files/bd/rx/ipshared/a9e0/src/GainOffsetCalib.vhd" \
+"../../../../eclypse_rx.ip_user_files/bd/rx/ipshared/a9e0/src/ZmodSDRController.vhd" \
+"../../../../eclypse_rx.ip_user_files/bd/rx/ip/rx_ZmodSDRController_0_0/sim/rx_ZmodSDRController_0_0.vhd" \
+"../../../../eclypse_rx.ip_user_files/bd/rx/ip/rx_axi_gpio_0_0/sim/rx_axi_gpio_0_0.vhd" \
+
+# Do not sort compile order
+nosort

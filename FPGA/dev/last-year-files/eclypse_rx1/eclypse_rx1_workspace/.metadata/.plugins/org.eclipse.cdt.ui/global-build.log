@@ -1,0 +1,29 @@
+Nothing to build in platform 'eclypsez7_rx1'
+
+13:07:50 **** Incremental Build of configuration Debug for project eclypse_rx1 ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/sw/eclypsez7_rx1/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/sw/eclypsez7_rx1/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: eclypse_rx1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1_workspace/eclypsez7_rx1/export/eclypsez7_rx1/sw/eclypsez7_rx1/standalone_domain/bsplib/lib -o "eclypse_rx1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: eclypse_rx1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size eclypse_rx1.elf  |tee "eclypse_rx1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34304	   2248	  22632	  59184	   e730	eclypse_rx1.elf
+'Finished building: eclypse_rx1.elf.size'
+' '

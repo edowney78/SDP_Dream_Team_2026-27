@@ -1,0 +1,172 @@
+#include <stdio.h>
+#include <math.h>
+#include "xgpio.h"
+#include "xaxidma.h"
+#include "platform.h"
+#include "xil_printf.h"
+#include "xparameters.h"
+
+#define DMA_DEV_ID          XPAR_AXIDMA_0_DEVICE_ID
+#define DMA_BASEADDR        XPAR_AXIDMA_0_BASEADDR
+#define DDR_BASE_ADDR       XPAR_PS7_DDR_0_S_AXI_BASEADDR
+#define MEM_BASE_ADDR       (DDR_BASE_ADDR + 0x1000000)
+
+// RX buffer region
+#define RX_BUFFER_BASE      (MEM_BASE_ADDR + 0x00300000)
+#define RX_MAX_PKT_LEN      2048 // bytes
+
+// TX buffer region
+#define TX_BUFFER_BASE      XPAR_PS7_DDR_0_S_AXI_BASEADDR + 0x01000000
+#define TX_MAX_PKT_LEN      4096 // bytes
+#define TX_SAMPLES          (TX_MAX_PKT_LEN / 4) // 4 bytes per sample (2 bytes per channel)
+
+XAxiDma AxiDma;
+
+int main()
+{
+    init_platform();
+
+    XAxiDma_Config *CfgPtr;
+    int Status, Index;
+
+    u8 *RxBufferPtr = (u8 *)RX_BUFFER_BASE;
+    u8 *TxBufferPtr = (u8 *)TX_BUFFER_BASE;
+
+    XGpio dma_ready;
+    XGpio_Initialize(&dma_ready, XPAR_ENA_ACQ_GPIO_DEVICE_ID);
+    XGpio_SetDataDirection(&dma_ready, 1, 0x0);
+
+    xil_printf("Starting simultaneous TX (sine) and RX capture...\n\r");
+
+    // Clear RX buffer
+    for (Index = 0; Index < RX_MAX_PKT_LEN; Index++) {
+        RxBufferPtr[Index] = 0x00;
+    }
+
+    // Clear TX buffer
+    for (Index = 0; Index < TX_MAX_PKT_LEN; Index++) {
+        TxBufferPtr[Index] = 0x00;
+    }
+
+    // DMA init
+    CfgPtr = XAxiDma_LookupConfig(DMA_DEV_ID);
+    if (!CfgPtr) {
+        xil_printf("No config found for %d\r\n", DMA_DEV_ID);
+        return XST_FAILURE;
+    }
+
+    Status = XAxiDma_CfgInitialize(&AxiDma, CfgPtr);
+    if (Status != XST_SUCCESS) {
+        xil_printf("DMA initialization failed %d\r\n", Status);
+        return XST_FAILURE;
+    }
+
+    if (XAxiDma_HasSg(&AxiDma)) {
+        xil_printf("Device configured as SG mode\r\n");
+        return XST_FAILURE;
+    }
+
+    // Disable interrupts on both channels
+    XAxiDma_IntrDisable(&AxiDma, XAXIDMA_IRQ_ALL_MASK, XAXIDMA_DEVICE_TO_DMA);
+    XAxiDma_IntrDisable(&AxiDma, XAXIDMA_IRQ_ALL_MASK, XAXIDMA_DMA_TO_DEVICE);
+
+    // Build sine wave into TX buffer
+    double Vref = 5.0;   // AWG Zmod low gain
+    double Amp  = 0.5;    // desired sine amplitude in V
+    double freq = 0.1;
+    u16 neg_sign = 0x8000;
+
+    for (Index = 0; Index < TX_SAMPLES; Index++) {
+        //double Vout = Amp * sin(2.0 * M_PI * Index / TX_SAMPLES);
+    	double Vout = Amp * 0;
+        double DAC_code_double = (Vout / Vref) * 8191;
+        u16 DAC_code_u16, DAC_code;
+        u8 upper_byte, lower_byte;
+
+        if (DAC_code_double < 0) {
+            DAC_code_u16 = (u16)(-DAC_code_double);
+            DAC_code = DAC_code_u16 << 2;
+            DAC_code = ~DAC_code;
+            DAC_code = DAC_code | neg_sign;
+        } else {
+            DAC_code_u16 = (u16)DAC_code_double;
+            DAC_code = DAC_code_u16 << 2;
+        }
+
+        upper_byte = DAC_code >> 8;
+        lower_byte = DAC_code & 0xFF;
+
+        // [ch2 lower, ch2 upper, ch1 lower, ch1 upper]
+        TxBufferPtr[4*Index]     = lower_byte; // ch2
+        TxBufferPtr[4*Index + 1] = upper_byte; // ch2
+        TxBufferPtr[4*Index + 2] = lower_byte; // ch1
+        TxBufferPtr[4*Index + 3] = upper_byte; // ch1
+    }
+
+    // Flush caches
+    Xil_DCacheFlushRange((UINTPTR)TxBufferPtr, TX_MAX_PKT_LEN);
+    Xil_DCacheFlushRange((UINTPTR)RxBufferPtr, RX_MAX_PKT_LEN);
+
+    // Reset DMA once before use
+    XAxiDma_Reset(&AxiDma);
+    while (!XAxiDma_ResetIsDone(&AxiDma));
+
+//    while(1){
+//		Status = XAxiDma_MM2Stransfer(&AxiDma, (UINTPTR)TxBufferPtr, TX_MAX_PKT_LEN);
+//		if(Status != XST_SUCCESS){
+//			xil_printf("DMA transfer failed...\r\n");
+//			return XST_FAILURE;
+//		}
+//
+//		// Wait until DMA is done
+//		while(XAxiDma_Busy(&AxiDma, XAXIDMA_DMA_TO_DEVICE));
+//	}
+    while (1) {
+        xil_printf("\n\r--- New TX/RX cycle ---\n\r");
+
+        // Start TX (MM2S)
+		Status = XAxiDma_MM2Stransfer(&AxiDma, (UINTPTR)TxBufferPtr, TX_MAX_PKT_LEN);
+		if (Status != XST_SUCCESS) {
+			xil_printf("MM2S transfer failed...\r\n");
+			return XST_FAILURE;
+		}
+
+        // Signal fabric that DMA is ready to receive
+
+
+        // Wait for both channels to complete
+        while (XAxiDma_Busy(&AxiDma, XAXIDMA_DMA_TO_DEVICE));
+
+        // Start RX first so we don't lose samples
+		Status = XAxiDma_S2MMtransfer(&AxiDma, (UINTPTR)RxBufferPtr, RX_MAX_PKT_LEN);
+		if (Status != XST_SUCCESS) {
+			xil_printf("S2MM transfer setup failed...\r\n");
+			return XST_FAILURE;
+		}
+
+		XGpio_DiscreteWrite(&dma_ready, 1, 0b1);
+
+        while (XAxiDma_Busy(&AxiDma, XAXIDMA_DEVICE_TO_DMA));
+
+        // Drop dma_ready low between bursts
+        XGpio_DiscreteWrite(&dma_ready, 1, 0b0);
+
+        // Invalidate RX buffer before reading
+        //Xil_DCacheInvalidateRange((UINTPTR)RxBufferPtr, RX_MAX_PKT_LEN);
+
+        // Print a subset of RX data every 4 bytes
+//        for (Index = 0; Index < RX_MAX_PKT_LEN; Index += 4) {
+//            u16 sample =
+//                ((unsigned int)RxBufferPtr[Index+3] << 8) |
+//                ((unsigned int)RxBufferPtr[Index+2]);
+//            xil_printf("RX %04x\r\n", sample);
+//        }
+        /*for(Index = 0; Index < RX_MAX_PKT_LEN; Index+=4) {
+			Xil_DCacheFlushRange((UINTPTR)RxBufferPtr, RX_MAX_PKT_LEN); // removing this one destroys first 32 packets
+		}*/
+        // break;
+    }
+
+    cleanup_platform();
+    return 0;
+}

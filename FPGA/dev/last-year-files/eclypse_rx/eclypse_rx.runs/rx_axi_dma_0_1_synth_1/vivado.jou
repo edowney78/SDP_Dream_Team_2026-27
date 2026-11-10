@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sat Nov  1 15:56:47 2025
+# Process ID: 46784
+# Current directory: C:/Users/mines/OneDrive/Desktop/SDP29/eclypse_rx/eclypse_rx.runs/rx_axi_dma_0_1_synth_1
+# Command line: vivado.exe -log rx_axi_dma_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rx_axi_dma_0_1.tcl
+# Log file: C:/Users/mines/OneDrive/Desktop/SDP29/eclypse_rx/eclypse_rx.runs/rx_axi_dma_0_1_synth_1/rx_axi_dma_0_1.vds
+# Journal file: C:/Users/mines/OneDrive/Desktop/SDP29/eclypse_rx/eclypse_rx.runs/rx_axi_dma_0_1_synth_1\vivado.jou
+# Running On: Mine_Ulker, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 8, Host memory: 34065 MB
+#-----------------------------------------------------------
+source rx_axi_dma_0_1.tcl -notrace

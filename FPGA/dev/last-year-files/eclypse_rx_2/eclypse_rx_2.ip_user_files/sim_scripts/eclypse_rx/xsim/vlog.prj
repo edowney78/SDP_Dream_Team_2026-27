@@ -1,0 +1,14 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2022.1/data/xilinx_vip/include" --include "../../../../eclypse_rx_2.gen/sources_1/bd/eclypse_rx/ipshared/ec67/hdl" --include "../../../../eclypse_rx_2.gen/sources_1/bd/eclypse_rx/ipshared/8713/hdl" --include "../../../../eclypse_rx_2.gen/sources_1/bd/eclypse_rx/ipshared/5765/hdl" \
+"../../../bd/eclypse_rx/ip/eclypse_rx_auto_pc_0/sim/eclypse_rx_auto_pc_0.v" \
+"../../../bd/eclypse_rx/ip/eclypse_rx_auto_pc_1/sim/eclypse_rx_auto_pc_1.v" \
+"../../../bd/eclypse_rx/ip/eclypse_rx_auto_us_0/sim/eclypse_rx_auto_us_0.v" \
+"../../../bd/eclypse_rx/ip/eclypse_rx_xlconstant_0_0/sim/eclypse_rx_xlconstant_0_0.v" \
+"../../../bd/eclypse_rx/ip/eclypse_rx_xlconstant_0_1/sim/eclypse_rx_xlconstant_0_1.v" \
+"../../../bd/eclypse_rx/ip/eclypse_rx_util_vector_logic_0_0/sim/eclypse_rx_util_vector_logic_0_0.v" \
+"../../../bd/eclypse_rx/ip/eclypse_rx_axis_data_fifo_0_0/sim/eclypse_rx_axis_data_fifo_0_0.v" \
+"../../../bd/eclypse_rx/ip/eclypse_rx_processing_system7_0_1/sim/eclypse_rx_processing_system7_0_1.v" \
+"../../../bd/eclypse_rx/sim/eclypse_rx.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

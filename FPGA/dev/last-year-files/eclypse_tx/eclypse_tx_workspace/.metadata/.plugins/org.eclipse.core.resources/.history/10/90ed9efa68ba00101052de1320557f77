@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="eclypse_tx_app" location="C:/Users/mines/OneDrive/Desktop/SDP29/eclypse_tx/eclypse_tx_workspace/eclypse_tx_app" platform="C:/Users/mines/OneDrive/Desktop/SDP29/eclypse_tx/eclypse_tx_workspace/eclypse_tx/export/eclypse_tx/eclypse_tx.xpfm" platformUID="xilinx:eclypse-z7:eclypsez7_tx:0.0(custom)" systemProject="eclypse_tx_app_system" sysConfig="eclypse_tx" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="6a62fd76d5272ec0a9df5695f2055542">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.2056775062">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.438435369" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

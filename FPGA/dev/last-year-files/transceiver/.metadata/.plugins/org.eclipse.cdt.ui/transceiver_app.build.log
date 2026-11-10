@@ -1,0 +1,58 @@
+09:28:14 **** Incremental Build of configuration Debug for project transceiver_app ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/awg_zmod.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/awg_zmod.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/mines/sdp26-29/software/dev/transceiver/transceiver/export/transceiver/sw/transceiver/standalone_domain/bspinclude/include -MMD -MP -MF"src/awg_zmod.d" -MT"src/awg_zmod.o" -o "src/awg_zmod.o" "../src/awg_zmod.c"
+'Finished building: ../src/awg_zmod.c'
+' '
+'Building file: ../src/dma_controller.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_controller.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/mines/sdp26-29/software/dev/transceiver/transceiver/export/transceiver/sw/transceiver/standalone_domain/bspinclude/include -MMD -MP -MF"src/dma_controller.d" -MT"src/dma_controller.o" -o "src/dma_controller.o" "../src/dma_controller.c"
+'Finished building: ../src/dma_controller.c'
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/mines/sdp26-29/software/dev/transceiver/transceiver/export/transceiver/sw/transceiver/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:128:26: warning: implicit declaration of function 'XAxiDma_MM2Stransfer'; did you mean 'XAxiDma_SimpleTransfer'? [-Wimplicit-function-declaration]
+  128 |                 Status = XAxiDma_MM2Stransfer(&AxiDma, (UINTPTR)TxBufferPtr, TX_MAX_PKT_LEN);
+      |                          ^~~~~~~~~~~~~~~~~~~~
+      |                          XAxiDma_SimpleTransfer
+../src/helloworld.c:138:9: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  138 |         while (XAxiDma_Busy(&AxiDma, XAXIDMA_DMA_TO_DEVICE));
+      |         ^~~~~
+../src/helloworld.c:141:17: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+  141 |                 Status = XAxiDma_S2MMtransfer(&AxiDma, (UINTPTR)RxBufferPtr, RX_MAX_PKT_LEN);
+      |                 ^~~~~~
+../src/helloworld.c:141:26: warning: implicit declaration of function 'XAxiDma_S2MMtransfer'; did you mean 'XAxiDma_SimpleTransfer'? [-Wimplicit-function-declaration]
+  141 |                 Status = XAxiDma_S2MMtransfer(&AxiDma, (UINTPTR)RxBufferPtr, RX_MAX_PKT_LEN);
+      |                          ^~~~~~~~~~~~~~~~~~~~
+      |                          XAxiDma_SimpleTransfer
+../src/helloworld.c:76:12: warning: unused variable 'freq' [-Wunused-variable]
+   76 |     double freq = 0.1;
+      |            ^~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/mines/sdp26-29/software/dev/transceiver/transceiver/export/transceiver/sw/transceiver/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: transceiver_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -lm -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/mines/sdp26-29/software/dev/transceiver/transceiver/export/transceiver/sw/transceiver/standalone_domain/bsplib/lib -o "transceiver_app.elf"  ./src/awg_zmod.o ./src/dma_controller.o ./src/helloworld.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: transceiver_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size transceiver_app.elf  |tee "transceiver_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  43356	   2288	  24552	  70196	  11234	transceiver_app.elf
+'Finished building: transceiver_app.elf.size'
+' '
+
+09:28:19 Build Finished (took 5s.199ms)
+

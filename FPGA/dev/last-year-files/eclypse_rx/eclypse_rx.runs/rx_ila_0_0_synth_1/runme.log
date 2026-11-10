@@ -1,0 +1,98 @@
+
+*** Running vivado
+    with args -log rx_ila_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source rx_ila_0_0.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source rx_ila_0_0.tcl -notrace
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {WARNING}' to undo this change.
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'CRITICAL WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {CRITICAL WARNING}' to undo this change.
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1637.062 ; gain = 0.000
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1637.062 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:48 ; elapsed = 00:00:51 . Memory (MB): peak = 2098.375 ; gain = 461.312
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:48 ; elapsed = 00:00:51 . Memory (MB): peak = 2098.375 ; gain = 461.312
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:48 ; elapsed = 00:00:51 . Memory (MB): peak = 2098.375 ; gain = 461.312
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.193 . Memory (MB): peak = 2098.375 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2098.375 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.213 . Memory (MB): peak = 2098.375 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:59 ; elapsed = 00:01:03 . Memory (MB): peak = 2098.375 ; gain = 461.312
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:59 ; elapsed = 00:01:03 . Memory (MB): peak = 2098.375 ; gain = 461.312
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  C:/Users/mines/OneDrive/Desktop/SDP29/eclypse_rx/eclypse_rx.runs/rx_ila_0_0_synth_1/dont_touch.xdc, line 9).
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:00 ; elapsed = 00:01:04 . Memory (MB): peak = 2098.375 ; gain = 461.312
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:03 ; elapsed = 00:01:07 . Memory (MB): peak = 2098.375 ; gain = 461.312
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:27 ; elapsed = 00:01:32 . Memory (MB): peak = 2098.375 ; gain = 461.312
+
+*** Running vivado
+    with args -log rx_ila_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source rx_ila_0_0.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source rx_ila_0_0.tcl -notrace
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {WARNING}' to undo this change.
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'CRITICAL WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {CRITICAL WARNING}' to undo this change.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1637.199 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 2096.148 ; gain = 458.949
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 2096.148 ; gain = 458.949
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 2096.148 ; gain = 458.949
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.211 . Memory (MB): peak = 2096.148 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2096.148 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.209 . Memory (MB): peak = 2096.148 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:52 ; elapsed = 00:00:55 . Memory (MB): peak = 2096.148 ; gain = 458.949
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:52 ; elapsed = 00:00:55 . Memory (MB): peak = 2096.148 ; gain = 458.949
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  C:/Users/mines/OneDrive/Desktop/SDP29/eclypse_rx/eclypse_rx.runs/rx_ila_0_0_synth_1/dont_touch.xdc, line 9).
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 2096.148 ; gain = 458.949
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:56 ; elapsed = 00:00:59 . Memory (MB): peak = 2096.148 ; gain = 458.949
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:24 ; elapsed = 00:01:28 . Memory (MB): peak = 2096.148 ; gain = 458.949
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:32 ; elapsed = 00:01:36 . Memory (MB): peak = 2096.148 ; gain = 458.949
+Finished Timing Optimization : Time (s): cpu = 00:01:33 ; elapsed = 00:01:37 . Memory (MB): peak = 2096.148 ; gain = 458.949
+Finished Technology Mapping : Time (s): cpu = 00:01:36 ; elapsed = 00:01:40 . Memory (MB): peak = 2096.148 ; gain = 458.949
+Finished IO Insertion : Time (s): cpu = 00:01:39 ; elapsed = 00:01:44 . Memory (MB): peak = 2096.148 ; gain = 458.949
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:39 ; elapsed = 00:01:44 . Memory (MB): peak = 2096.148 ; gain = 458.949
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:40 ; elapsed = 00:01:44 . Memory (MB): peak = 2096.148 ; gain = 458.949
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:40 ; elapsed = 00:01:44 . Memory (MB): peak = 2096.148 ; gain = 458.949
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:40 ; elapsed = 00:01:44 . Memory (MB): peak = 2096.148 ; gain = 458.949
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:40 ; elapsed = 00:01:44 . Memory (MB): peak = 2096.148 ; gain = 458.949
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |   116|
+|2     |CFGLUT5  |   320|
+|3     |LUT1     |    72|
+|4     |LUT2     |   288|
+|5     |LUT3     |   229|
+|6     |LUT4     |   470|
+|7     |LUT5     |   212|
+|8     |LUT6     |  1436|
+|9     |MUXF7    |   109|
+|10    |MUXF8    |    32|
+|11    |RAMB36E1 |     6|
+|12    |SRL16E   |   219|
+|13    |SRLC16E  |     2|
+|14    |SRLC32E  |    17|
+|15    |FDRE     |  3915|
+|16    |FDSE     |    10|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:40 ; elapsed = 00:01:44 . Memory (MB): peak = 2096.148 ; gain = 458.949
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.094 . Memory (MB): peak = 2096.148 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2096.148 ; gain = 0.000
+synth_design: Time (s): cpu = 00:01:46 ; elapsed = 00:01:51 . Memory (MB): peak = 2096.148 ; gain = 458.949

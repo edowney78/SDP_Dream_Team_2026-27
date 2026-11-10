@@ -1,0 +1,19 @@
+vhdl xil_defaultlib  \
+"../../../bd/eclypse_rx/ip/eclypse_rx_axi_dma_0_0/sim/eclypse_rx_axi_dma_0_0.vhd" \
+"../../../bd/eclypse_rx/ip/eclypse_rx_rst_ps7_0_100M_0/sim/eclypse_rx_rst_ps7_0_100M_0.vhd" \
+"../../../bd/eclypse_rx/ipshared/e250/src/PkgZmodDigitizer.vhd" \
+"../../../bd/eclypse_rx/ipshared/e250/src/ADI_SPI.vhd" \
+"../../../bd/eclypse_rx/ipshared/e250/src/ConfigADC.vhd" \
+"../../../bd/eclypse_rx/ipshared/e250/src/PkgTWI_Utils.vhd" \
+"../../../bd/eclypse_rx/ipshared/e250/src/TWI_Ctl.vhd" \
+"../../../bd/eclypse_rx/ipshared/e250/src/SyncAsync.vhd" \
+"../../../bd/eclypse_rx/ipshared/e250/src/ResetBridge.vhd" \
+"../../../bd/eclypse_rx/ipshared/e250/src/ConfigClockGen.vhd" \
+"../../../bd/eclypse_rx/ipshared/e250/src/SyncBase.vhd" \
+"../../../bd/eclypse_rx/ipshared/e250/src/HandshakeData.vhd" \
+"../../../bd/eclypse_rx/ipshared/e250/src/DataPath.vhd" \
+"../../../bd/eclypse_rx/ipshared/e250/src/GainOffsetCalib.vhd" \
+"../../../bd/eclypse_rx/ipshared/e250/src/ZmodDigitizerController.vhd" \
+"../../../bd/eclypse_rx/ip/eclypse_rx_ZmodDigitizerControl_0_0/sim/eclypse_rx_ZmodDigitizerControl_0_0.vhd" \
+
+nosort

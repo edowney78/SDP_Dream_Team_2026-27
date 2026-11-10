@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Dec 15 12:45:29 2025
+# Process ID: 30964
+# Current directory: C:/Users/mines/sdp26-29/software/dev/eclypse_rx/eclypse_rx.runs/rx_axi_gpio_0_0_synth_1
+# Command line: vivado.exe -log rx_axi_gpio_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rx_axi_gpio_0_0.tcl
+# Log file: C:/Users/mines/sdp26-29/software/dev/eclypse_rx/eclypse_rx.runs/rx_axi_gpio_0_0_synth_1/rx_axi_gpio_0_0.vds
+# Journal file: C:/Users/mines/sdp26-29/software/dev/eclypse_rx/eclypse_rx.runs/rx_axi_gpio_0_0_synth_1\vivado.jou
+# Running On: Minnos, OS: Windows, CPU Frequency: 3302 MHz, CPU Physical cores: 8, Host memory: 33957 MB
+#-----------------------------------------------------------
+source rx_axi_gpio_0_0.tcl -notrace

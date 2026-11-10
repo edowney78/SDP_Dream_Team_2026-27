@@ -1,0 +1,10 @@
+09:51:46 **** Build of configuration Hardware for project eclypse_tx_app_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 52135 C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx_workspace/eclypse_tx/export/eclypse_tx/eclypse_tx.xpfm standalone_domain C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx_workspace/eclypse_tx_app_system/Hardware/system.bif
+sdcard_gen --xpfm C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx_workspace/eclypse_tx/export/eclypse_tx/eclypse_tx.xpfm --sys_config eclypse_tx --bif C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx_workspace/eclypse_tx_app_system/Hardware/system.bif --bitstream C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx_workspace/eclypse_tx_app/_ide/bitstream/tx_wrapper.bit --elf C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx_workspace/eclypse_tx_app/Debug/eclypse_tx_app.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx_workspace/eclypse_tx_app/_ide/bitstream/tx_wrapper.bit
+Running C:/Xilinx/Vitis/2022.1/bin/bootgen  -image C:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx_workspace/eclypse_tx_app_system/Hardware/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+09:52:03 Build Finished (took 17s.42ms)
+

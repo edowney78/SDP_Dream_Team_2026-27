@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Feb  9 12:31:39 2026
+# Process ID: 37468
+# Current directory: C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1.runs/eclypse_rx_processing_system7_0_0_synth_1
+# Command line: vivado.exe -log eclypse_rx_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source eclypse_rx_processing_system7_0_0.tcl
+# Log file: C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1.runs/eclypse_rx_processing_system7_0_0_synth_1/eclypse_rx_processing_system7_0_0.vds
+# Journal file: C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1.runs/eclypse_rx_processing_system7_0_0_synth_1\vivado.jou
+# Running On: Minnos, OS: Windows, CPU Frequency: 3302 MHz, CPU Physical cores: 8, Host memory: 33957 MB
+#-----------------------------------------------------------
+source eclypse_rx_processing_system7_0_0.tcl -notrace
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {WARNING}' to undo this change.
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'CRITICAL WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {CRITICAL WARNING}' to undo this change.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1637.203 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1682.523 ; gain = 45.320
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1682.523 ; gain = 45.320
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1682.523 ; gain = 45.320
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1682.523 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1682.523 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 1682.523 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1682.523 ; gain = 45.320
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1682.523 ; gain = 45.320
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1.runs/eclypse_rx_processing_system7_0_0_synth_1/dont_touch.xdc, line 9).
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1682.523 ; gain = 45.320
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1682.523 ; gain = 45.320
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1682.523 ; gain = 45.320
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1803.562 ; gain = 166.359
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1823.949 ; gain = 186.746
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1835.203 ; gain = 198.000
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1842.484 ; gain = 205.281
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1842.484 ; gain = 205.281
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1842.484 ; gain = 205.281
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1842.484 ; gain = 205.281
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1842.484 ; gain = 205.281
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1842.484 ; gain = 205.281
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BIBUF |   130|
+|2     |BUFG  |     1|
+|3     |LUT1  |    24|
+|4     |PS7   |     1|
++------+------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1842.484 ; gain = 205.281
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1842.484 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1866.227 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1866.227 ; gain = 229.023

@@ -1,0 +1,91 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sat Nov  1 15:56:47 2025
+# Process ID: 46784
+# Current directory: C:/Users/mines/OneDrive/Desktop/SDP29/eclypse_rx/eclypse_rx.runs/rx_axi_dma_0_1_synth_1
+# Command line: vivado.exe -log rx_axi_dma_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rx_axi_dma_0_1.tcl
+# Log file: C:/Users/mines/OneDrive/Desktop/SDP29/eclypse_rx/eclypse_rx.runs/rx_axi_dma_0_1_synth_1/rx_axi_dma_0_1.vds
+# Journal file: C:/Users/mines/OneDrive/Desktop/SDP29/eclypse_rx/eclypse_rx.runs/rx_axi_dma_0_1_synth_1\vivado.jou
+# Running On: Mine_Ulker, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 8, Host memory: 34065 MB
+#-----------------------------------------------------------
+source rx_axi_dma_0_1.tcl -notrace
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {WARNING}' to undo this change.
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'CRITICAL WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {CRITICAL WARNING}' to undo this change.
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1638.453 ; gain = 0.000
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1638.453 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1853.520 ; gain = 215.066
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1853.520 ; gain = 215.066
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1853.520 ; gain = 215.066
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.112 . Memory (MB): peak = 1853.520 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1853.520 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 1853.520 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 1853.520 ; gain = 215.066
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 1853.520 ; gain = 215.066
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  C:/Users/mines/OneDrive/Desktop/SDP29/eclypse_rx/eclypse_rx.runs/rx_axi_dma_0_1_synth_1/dont_touch.xdc, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/I_PRMRY_DATAMOVER/\GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER /\GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT /I_XD_FIFO/\NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO /\xpm_fifo_instance.xpm_fifo_sync_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/I_PRMRY_DATAMOVER/\GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER /\GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT /I_DATA_FIFO/\BLK_MEM.I_SYNC_FIFOGEN_FIFO /\xpm_fifo_instance.xpm_fifo_sync_inst . (constraint file  auto generated constraint).
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 1853.520 ; gain = 215.066
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1853.520 ; gain = 215.066
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:45 . Memory (MB): peak = 1853.520 ; gain = 215.066
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                                                                                                                                                                                                                    | RTL Object                       | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|U0/\I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | 128 x 38(NO_CHANGE)    | W |   | 128 x 38(NO_CHANGE)    |   | R | Port A and B     | 0      | 1      | 
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----------+----------------------+-------------+
+|Module Name                                                                                                                                                                                                                      | RTL Object                       | Inference | Size (Depth x Width) | Primitives  | 
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----------+----------------------+-------------+
+|U0/\I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst /xpm_fifo_base_inst/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | Implied   | 16 x 9               | RAM32M x 2  | 
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+-----------+----------------------+-------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:47 ; elapsed = 00:00:51 . Memory (MB): peak = 1853.520 ; gain = 215.066
+Finished Timing Optimization : Time (s): cpu = 00:00:50 ; elapsed = 00:00:55 . Memory (MB): peak = 1853.520 ; gain = 215.066
+Finished Technology Mapping : Time (s): cpu = 00:00:51 ; elapsed = 00:00:55 . Memory (MB): peak = 1853.520 ; gain = 215.066
+Finished IO Insertion : Time (s): cpu = 00:00:55 ; elapsed = 00:00:59 . Memory (MB): peak = 1853.520 ; gain = 215.066
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:55 ; elapsed = 00:00:59 . Memory (MB): peak = 1853.520 ; gain = 215.066
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:55 ; elapsed = 00:01:00 . Memory (MB): peak = 1853.520 ; gain = 215.066
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:55 ; elapsed = 00:01:00 . Memory (MB): peak = 1853.520 ; gain = 215.066
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:55 ; elapsed = 00:01:00 . Memory (MB): peak = 1853.520 ; gain = 215.066
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:55 ; elapsed = 00:01:00 . Memory (MB): peak = 1853.520 ; gain = 215.066
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |    27|
+|2     |LUT1     |    54|
+|3     |LUT2     |   106|
+|4     |LUT3     |   308|
+|5     |LUT4     |   209|
+|6     |LUT5     |   149|
+|7     |LUT6     |   187|
+|8     |RAM32M   |     2|
+|9     |RAMB36E1 |     1|
+|10    |SRL16E   |    97|
+|11    |FDR      |     8|
+|12    |FDRE     |  1291|
+|13    |FDSE     |    50|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:55 ; elapsed = 00:01:00 . Memory (MB): peak = 1853.520 ; gain = 215.066
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 1853.520 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1853.520 ; gain = 0.000
+synth_design: Time (s): cpu = 00:01:00 ; elapsed = 00:01:06 . Memory (MB): peak = 1853.520 ; gain = 215.066

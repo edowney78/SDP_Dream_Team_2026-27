@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../eclypse_rx_2.gen/sources_1/bd/eclypse_rx/ipshared/ec67/hdl" --include "../../../../eclypse_rx_2.gen/sources_1/bd/eclypse_rx/ipshared/8713/hdl" --include "../../../../eclypse_rx_2.gen/sources_1/bd/eclypse_rx/ipshared/5765/hdl" --include "C:/Xilinx/Vivado/2022.1/data/xilinx_vip/include" \
+"../../../../eclypse_rx_2.gen/sources_1/bd/eclypse_rx/sim/eclypse_rx.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

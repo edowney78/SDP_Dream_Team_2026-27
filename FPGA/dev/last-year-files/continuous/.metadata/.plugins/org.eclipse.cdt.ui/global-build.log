@@ -1,0 +1,22 @@
+Nothing to build in platform 'continuous'
+
+17:33:25 **** Clean-only build of configuration Debug for project continuous_app ****
+make clean 
+rm -rf  ./src/awg_calibration.o ./src/main.o ./src/mm2s_transfer.o ./src/platform.o ./src/test_stream_sink.o ./src/zmod_awg_axi_configuration.o  ./src/awg_calibration.d ./src/main.d ./src/mm2s_transfer.d ./src/platform.d ./src/test_stream_sink.d ./src/zmod_awg_axi_configuration.d  continuous_app.elf.size  continuous_app.elf
+' '
+17:33:25 **** Incremental Build of configuration Debug for project continuous_app ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/s2mm_cyclic_transfer_test/src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/s2mm_cyclic_transfer_test/src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/mines/sdp26-29/software/dev/continuous/continuous/export/continuous/sw/continuous/standalone_domain/bspinclude/include -MMD -MP -MF"src/s2mm_cyclic_transfer_test/src/main.d" -MT"src/s2mm_cyclic_transfer_test/src/main.o" -o "src/s2mm_cyclic_transfer_test/src/main.o" "../src/s2mm_cyclic_transfer_test/src/main.c"
+In file included from ../src/s2mm_cyclic_transfer_test/src/main.c:7:
+../src/s2mm_cyclic_transfer_test/src/trigger.h:4:10: fatal error: TriggerControl.h: No such file or directory
+    4 | #include "TriggerControl.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [src/s2mm_cyclic_transfer_test/src/subdir.mk:44: src/s2mm_cyclic_transfer_test/src/main.o] Error 1
+make: *** [makefile:36: all] Error 2

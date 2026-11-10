@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="digitizer_test" location="C:/Users/mines/OneDrive/Desktop/SDP29/eclypse_rx/eclypse_rx_workspace/digitizer_test" platform="C:/Users/mines/sdp26-29/software/dev/eclypse_rx/eclypse_rx_workspace/eclypsez7_digitizer/export/eclypsez7_digitizer/eclypsez7_digitizer.xpfm" platformUID="xilinx:eclypse-z7:eclypsez7_rx:0.0(custom)" systemProject="digitizer_test_system" sysConfig="eclypsez7_digitizer" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="940408e1d92cc8f8c7cf48f26e2915f9">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1212257417">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1766298577" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

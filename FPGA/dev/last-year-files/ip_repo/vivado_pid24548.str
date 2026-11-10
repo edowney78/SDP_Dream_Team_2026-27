@@ -1,0 +1,252 @@
+/*
+
+Xilinx Vivado v2022.1 (64-bit) [Major: 2022, Minor: 1]
+SW Build: 3526262 on Mon Apr 18 15:48:16 MDT 2022
+IP Build: 3524634 on Mon Apr 18 20:55:01 MDT 2022
+
+Process ID (PID): 24548
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Tue Nov 10 12:07:13 CST 2026
+Time zone: 	Cuba Standard Time (America/Havana)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 2560x1440
+Screen resolution (DPI): 125
+Available screens: 2
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.11 64-bit
+Java home: 	C:/AMDDesignTools/Vivado/2022.1/tps/win64/jre11.0.11_9
+Java executable: 	C:/AMDDesignTools/Vivado/2022.1/tps/win64/jre11.0.11_9/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Ethan
+User home directory: C:/Users/Ethan
+User working directory: C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/AMDDesignTools/Vivado
+HDI_APPROOT: C:/AMDDesignTools/Vivado/2022.1
+RDI_DATADIR: C:/AMDDesignTools/Vivado/2022.1/data
+RDI_BINDIR: C:/AMDDesignTools/Vivado/2022.1/bin
+
+Vivado preferences file: C:/Users/Ethan/AppData/Roaming/Xilinx/Vivado/2022.1/vivado.xml
+Vivado preferences directory: C:/Users/Ethan/AppData/Roaming/Xilinx/Vivado/2022.1/
+Vivado layouts directory: C:/Users/Ethan/AppData/Roaming/Xilinx/Vivado/2022.1/data/layouts
+PlanAhead jar file: 	C:/AMDDesignTools/Vivado/2022.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo/vivado.log
+Vivado journal file: 	C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo/vivado.jou
+Engine tmp dir: 	C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo/.Xil/Vivado-24548-Ethan-Desktop
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/AMDDesignTools/Vivado/2022.1/ids_lite/ISE
+XILINX_DSP: C:/AMDDesignTools/Vivado/2022.1/ids_lite/ISE
+XILINX_HLS: C:/AMDDesignTools/Vitis_HLS/2022.1
+XILINX_PLANAHEAD: C:/AMDDesignTools/Vivado/2022.1
+XILINX_VIVADO: C:/AMDDesignTools/Vivado/2022.1
+XILINX_VIVADO_HLS: C:/AMDDesignTools/Vivado/2022.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,254 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\Ethan\GitHub\sdp-31-27\FPGA\dev\last-year-files\ip_repo\edit_DataStreamPackatizer_v1_0.xpr. Version: Vivado v2022.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo/edit_DataStreamPackatizer_v1_0.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 87 MB (+88860kb) [00:00:10]
+// [Engine Memory]: 1,254 MB (+1163205kb) [00:00:10]
+// WARNING: HEventQueue.dispatchEvent() is taking  1046 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,254 MB. GUI used memory: 72 MB. Current time: 11/10/26, 12:07:16 PM CST
+// Project name: edit_DataStreamPackatizer_v1_0; location: C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo; part: xc7z020clg484-1
+dismissDialog("Open Project"); // bA
+// [GUI Memory]: 103 MB (+12014kb) [00:00:12]
+// [GUI Memory]: 131 MB (+23724kb) [00:00:13]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 15 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Invalid Top Module"); // I
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, DataStreamPackatizer_v1_0.v]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, DataStreamPackatizer_v1_0_m_axis.v]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, DataStreamPackatizer_v1_0_s_axis.v]", 4, false); // D
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, DataStreamPackatizer_v1_0.v]", 2, false); // D
+closeMainWindow("edit_DataStreamPackatizer_v1_0 - [C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo/edit_DataStreamPackatizer_v1_0.xpr] - Vivado 2022.1"); // bb
+// Run Command: PAResourceCommand.PACommandNames_EXIT
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Exit Vivado"); // A
+// Elapsed time: 34 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ao
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ao
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ar
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, "Add"); // D
+selectMenuItem(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // ar
+// Elapsed time: 18 seconds
+selectComboBox(RDIResource.HJFileChooserRecentListPreview_RECENT_DIRECTORIES, "C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo", 6); // aj
+dismissFileChooser();
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 1531ms to process. Increasing delay to 5000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1532 ms.
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_DIRECTORIES, "Add Directories"); // a
+// Elapsed time: 33 seconds
+setFolderChooser("C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo");
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 73 seconds
+dismissDialog("Add Sources"); // c
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, DataStreamPackatizer_v1_0.v]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, DataStreamPackatizer_v1_0.v]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, DataStreamPackatizer_v1_0.v]", 2, false, false, false, false, false, true); // D - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectButton(PAResourceOtoP.OpenFileAction_OK, "OK"); // a
+dismissDialog("Unable to Open File"); // ag
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0 (DataStreamPackatizer_v1_0.v)]", 5, true); // D - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0 (DataStreamPackatizer_v1_0.v)]", 5); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0 (DataStreamPackatizer_v1_0.v)]", 5); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0 (DataStreamPackatizer_v1_0.v)]", 5); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0 (DataStreamPackatizer_v1_0.v), DataStreamPackatizer_v1_0_s_axis_inst : DataStreamPackatizer_v1_0_s_axis (DataStreamPackatizer_v1_0_s_axis.v)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0 (DataStreamPackatizer_v1_0.v), DataStreamPackatizer_v1_0_m_axis_inst : DataStreamPackatizer_v1_0_m_axis (DataStreamPackatizer_v1_0_m_axis.v)]", 7, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0 (DataStreamPackatizer_v1_0.v), DataStreamPackatizer_v1_0_s_axis_inst : DataStreamPackatizer_v1_0_s_axis (DataStreamPackatizer_v1_0_s_axis.v)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0 (DataStreamPackatizer_v1_0.v)]", 5, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0 (DataStreamPackatizer_v1_0.v)]", 5, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1091 ms.
+dismissDialog("Opening Editor"); // bA
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+// Elapsed time: 35 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0 (DataStreamPackatizer_v1_0.v)]", 5); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0 (DataStreamPackatizer_v1_0.v)]", 5); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0 (DataStreamPackatizer_v1_0.v)]", 5); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0 (DataStreamPackatizer_v1_0.v)]", 5); // D
+// WARNING: HEventQueue.dispatchEvent() is taking  1053 ms.
+dismissDialog("Opening Editor"); // bA
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0 (DataStreamPackatizer_v1_0.v)]", 5); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0 (DataStreamPackatizer_v1_0.v), DataStreamPackatizer_v1_0_s_axis_inst : DataStreamPackatizer_v1_0_s_axis (DataStreamPackatizer_v1_0_s_axis.v)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0 (DataStreamPackatizer_v1_0.v), DataStreamPackatizer_v1_0_s_axis_inst : DataStreamPackatizer_v1_0_s_axis (DataStreamPackatizer_v1_0_s_axis.v)]", 6, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1048 ms.
+dismissDialog("Opening Editor"); // bA
+// [GUI Memory]: 141 MB (+3468kb) [00:04:31]
+// Elapsed time: 555 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0 (DataStreamPackatizer_v1_0.v)]", 5, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ar
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0_m_axis (DataStreamPackatizer_v1_0_m_axis.v)]", 5, false); // D
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0_s_axis (DataStreamPackatizer_v1_0_s_axis.v)]", 6, false, false, true, false, false, false); // D - Control Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0_s_axis (DataStreamPackatizer_v1_0_s_axis.v)]", 6, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ar
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0_m_axis (DataStreamPackatizer_v1_0_m_axis.v)]", 5, false); // D
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0_m_axis (DataStreamPackatizer_v1_0_m_axis.v)]", 5, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ar
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // D
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, "Add"); // D
+selectMenuItem(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // ar
+// Elapsed time: 36 seconds
+String[] filenames31467 = {"C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo/DataStreamPackatizer_1.0/hdl/DataStreamPackatizer_v1_0.v", "C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo/DataStreamPackatizer_1.0/hdl/DataStreamPackatizer_v1_0_m_axis.v", "C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo/DataStreamPackatizer_1.0/hdl/DataStreamPackatizer_v1_0_s_axis.v"};
+setFileChooser(filenames31467);
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 45 seconds
+dismissDialog("Add Sources"); // c
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, DataStreamPackatizer_v1_0.v]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, DataStreamPackatizer_v1_0.v]", 2, false); // D
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, DataStreamPackatizer_v1_0_s_axis.v]", 4, false, true, false, false, false, false); // D - Shift Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, DataStreamPackatizer_v1_0_m_axis.v]", 3, false, false, true, false, false, false); // D - Control Key
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, DataStreamPackatizer_v1_0_s_axis.v]", 4, false, false, true, false, false, false); // D - Control Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, DataStreamPackatizer_v1_0_s_axis.v]", 4, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ar
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Remove Sources"); // aE
+// TclEventType: FILE_SET_CHANGE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0 (DataStreamPackatizer_v1_0.v)]", 1); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataStreamPackatizer_v1_0 (DataStreamPackatizer_v1_0.v)]", 1); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 4, false); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, DataStreamPackatizer_v1_0 (DataStreamPackatizer_v1_0.v)]", 7, true); // D - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources]", 8); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources, utils_1]", 9, false); // D

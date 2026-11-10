@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Feb  9 13:04:31 2026
+# Process ID: 41512
+# Current directory: C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1.runs/impl_1
+# Command line: vivado.exe -log eclypse_rx_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source eclypse_rx_wrapper.tcl -notrace
+# Log file: C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1.runs/impl_1/eclypse_rx_wrapper.vdi
+# Journal file: C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1.runs/impl_1\vivado.jou
+# Running On: Minnos, OS: Windows, CPU Frequency: 3302 MHz, CPU Physical cores: 8, Host memory: 33957 MB
+#-----------------------------------------------------------
+source eclypse_rx_wrapper.tcl -notrace

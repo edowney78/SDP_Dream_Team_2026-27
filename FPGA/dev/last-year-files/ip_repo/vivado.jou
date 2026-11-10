@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Nov 10 12:06:57 2026
+# Process ID: 24548
+# Current directory: C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30816 C:\Users\Ethan\GitHub\sdp-31-27\FPGA\dev\last-year-files\ip_repo\edit_DataStreamPackatizer_v1_0.xpr
+# Log file: C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo/vivado.log
+# Journal file: C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo\vivado.jou
+# Running On: Ethan-Desktop, OS: Windows, CPU Frequency: 4092 MHz, CPU Physical cores: 12, Host memory: 33407 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo/edit_DataStreamPackatizer_v1_0.xpr
+update_compile_order -fileset sources_1
+add_files {C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo/DataStreamPackatizer_1.0/hdl/DataStreamPackatizer_v1_0_s_axis.v C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo/DataStreamPackatizer_1.0/hdl/DataStreamPackatizer_v1_0_m_axis.v C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo/DataStreamPackatizer_1.0/hdl/DataStreamPackatizer_v1_0.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo/DataStreamPackatizer_1.0/hdl/DataStreamPackatizer_v1_0.v] -no_script -reset -force -quiet
+remove_files  C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo/DataStreamPackatizer_1.0/hdl/DataStreamPackatizer_v1_0.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo/DataStreamPackatizer_1.0/hdl/DataStreamPackatizer_v1_0_s_axis.v] -no_script -reset -force -quiet
+remove_files  C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo/DataStreamPackatizer_1.0/hdl/DataStreamPackatizer_v1_0_s_axis.v
+export_ip_user_files -of_objects  [get_files C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo/DataStreamPackatizer_1.0/hdl/DataStreamPackatizer_v1_0_m_axis.v] -no_script -reset -force -quiet
+remove_files  C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo/DataStreamPackatizer_1.0/hdl/DataStreamPackatizer_v1_0_m_axis.v
+add_files -norecurse {C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo/DataStreamPackatizer_1.0/hdl/DataStreamPackatizer_v1_0_s_axis.v C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo/DataStreamPackatizer_1.0/hdl/DataStreamPackatizer_v1_0_m_axis.v C:/Users/Ethan/GitHub/sdp-31-27/FPGA/dev/last-year-files/ip_repo/DataStreamPackatizer_1.0/hdl/DataStreamPackatizer_v1_0.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/Ethan/Users/mines/sdp26-29/software/dev/ip_repo/DataStreamPackatizer_1.0/hdl/DataStreamPackatizer_v1_0_m_axis.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/Ethan/Users/mines/sdp26-29/software/dev/ip_repo/DataStreamPackatizer_1.0/hdl/DataStreamPackatizer_v1_0.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/Ethan/Users/mines/sdp26-29/software/dev/ip_repo/DataStreamPackatizer_1.0/hdl/DataStreamPackatizer_v1_0_s_axis.v] -no_script -reset -force -quiet
+remove_files  {C:/Users/Ethan/Users/mines/sdp26-29/software/dev/ip_repo/DataStreamPackatizer_1.0/hdl/DataStreamPackatizer_v1_0_m_axis.v C:/Users/Ethan/Users/mines/sdp26-29/software/dev/ip_repo/DataStreamPackatizer_1.0/hdl/DataStreamPackatizer_v1_0.v C:/Users/Ethan/Users/mines/sdp26-29/software/dev/ip_repo/DataStreamPackatizer_1.0/hdl/DataStreamPackatizer_v1_0_s_axis.v}

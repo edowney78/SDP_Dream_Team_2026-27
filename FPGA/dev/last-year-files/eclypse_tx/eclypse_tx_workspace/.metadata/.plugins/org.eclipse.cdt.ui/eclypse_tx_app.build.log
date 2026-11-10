@@ -1,0 +1,40 @@
+09:51:39 **** Build of configuration Debug for project eclypse_tx_app ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx_workspace/eclypse_tx/export/eclypse_tx/sw/eclypse_tx/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:83:18: warning: implicit declaration of function 'XAxiDma_MM2Stransfer'; did you mean 'XAxiDma_SimpleTransfer'? [-Wimplicit-function-declaration]
+   83 |         Status = XAxiDma_MM2Stransfer(&AxiDma, (UINTPTR)TxBufferPtr, MAX_PKT_LEN);
+      |                  ^~~~~~~~~~~~~~~~~~~~
+      |                  XAxiDma_SimpleTransfer
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/mm2s_controller.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mm2s_controller.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx_workspace/eclypse_tx/export/eclypse_tx/sw/eclypse_tx/standalone_domain/bspinclude/include -MMD -MP -MF"src/mm2s_controller.d" -MT"src/mm2s_controller.o" -o "src/mm2s_controller.o" "../src/mm2s_controller.c"
+'Finished building: ../src/mm2s_controller.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx_workspace/eclypse_tx/export/eclypse_tx/sw/eclypse_tx/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: eclypse_tx_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -lm -Wl,-T -Wl,../src/lscript.ld -LC:/Users/mines/sdp26-29/software/dev/eclypse_tx/eclypse_tx_workspace/eclypse_tx/export/eclypse_tx/sw/eclypse_tx/standalone_domain/bsplib/lib -o "eclypse_tx_app.elf"  ./src/helloworld.o ./src/mm2s_controller.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: eclypse_tx_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size eclypse_tx_app.elf  |tee "eclypse_tx_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  39180	   2248	  24504	  65932	  1018c	eclypse_tx_app.elf
+'Finished building: eclypse_tx_app.elf.size'
+' '
+
+09:51:44 Build Finished (took 5s.190ms)
+

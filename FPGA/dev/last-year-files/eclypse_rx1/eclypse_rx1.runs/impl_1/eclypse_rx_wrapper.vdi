@@ -1,0 +1,71 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Feb  9 14:51:41 2026
+# Process ID: 44456
+# Current directory: C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1.runs/impl_1
+# Command line: vivado.exe -log eclypse_rx_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source eclypse_rx_wrapper.tcl -notrace
+# Log file: C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1.runs/impl_1/eclypse_rx_wrapper.vdi
+# Journal file: C:/Users/mines/sdp26-29/software/dev/eclypse_rx1/eclypse_rx1.runs/impl_1\vivado.jou
+# Running On: Minnos, OS: Windows, CPU Frequency: 3302 MHz, CPU Physical cores: 8, Host memory: 33957 MB
+#-----------------------------------------------------------
+source eclypse_rx_wrapper.tcl -notrace
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {WARNING}' to undo this change.
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'CRITICAL WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {CRITICAL WARNING}' to undo this change.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.064 . Memory (MB): peak = 1638.004 ; gain = 0.000
+get_clocks: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1934.387 ; gain = 296.383
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1934.387 ; gain = 0.000
+link_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:20 . Memory (MB): peak = 1934.387 ; gain = 296.383
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2376.621 ; gain = 0.000
+opt_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2376.621 ; gain = 442.234
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.248 . Memory (MB): peak = 2376.621 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2376.621 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2376.621 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2376.621 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2376.621 ; gain = 0.000
+place_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2376.621 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.284 . Memory (MB): peak = 2376.621 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.402 . Memory (MB): peak = 2376.621 ; gain = 0.000
+
+Checksum: PlaceDB: bc041fb3 ConstDB: 0 ShapeSum: 56be005e RouteDB: 0
+Post Restoration Checksum: NetGraph: febd91d9 NumContArr: ef7de787 Constraints: 0 Timing: 0
+ Number of Nodes with overlaps = 0
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 3178
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 3178
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+ Number of Nodes with overlaps = 181
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 0
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.493217 %
+  Global Horizontal Routing Utilization  = 0.543949 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+
+ Verification completed successfully
+
+Routing Is Done.
+route_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 2434.832 ; gain = 58.211
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.296 . Memory (MB): peak = 2451.047 ; gain = 16.215
+write_bitstream: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2914.824 ; gain = 453.953

@@ -1,0 +1,20 @@
+vhdl xil_defaultlib  \
+"../../../bd/rx/ip/rx_axi_dma_0_1/sim/rx_axi_dma_0_1.vhd" \
+"../../../bd/rx/ip/rx_rst_ps7_0_100M_0/sim/rx_rst_ps7_0_100M_0.vhd" \
+"../../../bd/rx/ipshared/a9e0/src/PkgZmodDigitizer.vhd" \
+"../../../bd/rx/ipshared/a9e0/src/ADI_SPI.vhd" \
+"../../../bd/rx/ipshared/a9e0/src/ConfigADC.vhd" \
+"../../../bd/rx/ipshared/a9e0/src/PkgTWI_Utils.vhd" \
+"../../../bd/rx/ipshared/a9e0/src/TWI_Ctl.vhd" \
+"../../../bd/rx/ipshared/a9e0/src/SyncAsync.vhd" \
+"../../../bd/rx/ipshared/a9e0/src/ResetBridge.vhd" \
+"../../../bd/rx/ipshared/a9e0/src/ConfigClockGen.vhd" \
+"../../../bd/rx/ipshared/a9e0/src/SyncBase.vhd" \
+"../../../bd/rx/ipshared/a9e0/src/HandshakeData.vhd" \
+"../../../bd/rx/ipshared/a9e0/src/DataPath.vhd" \
+"../../../bd/rx/ipshared/a9e0/src/GainOffsetCalib.vhd" \
+"../../../bd/rx/ipshared/a9e0/src/ZmodSDRController.vhd" \
+"../../../bd/rx/ip/rx_ZmodSDRController_0_0/sim/rx_ZmodSDRController_0_0.vhd" \
+"../../../bd/rx/ip/rx_axi_gpio_0_0/sim/rx_axi_gpio_0_0.vhd" \
+
+nosort

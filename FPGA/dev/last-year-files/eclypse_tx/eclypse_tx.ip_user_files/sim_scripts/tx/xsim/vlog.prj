@@ -1,0 +1,30 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2022.1/data/xilinx_vip/include" --include "../../../../eclypse_tx.gen/sources_1/bd/tx/ipshared/ec67/hdl" --include "../../../../eclypse_tx.gen/sources_1/bd/tx/ipshared/5765/hdl" --include "../../../../eclypse_tx.gen/sources_1/bd/tx/ipshared/8713/hdl" --include "../../../../eclypse_tx.gen/sources_1/bd/tx/ipshared/4e49" \
+"../../../bd/tx/ip/tx_processing_system7_0_0/sim/tx_processing_system7_0_0.v" \
+"../../../bd/tx/ip/tx_xlconstant_0_0/sim/tx_xlconstant_0_0.v" \
+"../../../bd/tx/ip/tx_xbar_0/sim/tx_xbar_0.v" \
+"../../../bd/tx/ip/tx_axis_data_fifo_0_0/sim/tx_axis_data_fifo_0_0.v" \
+"../../../bd/tx/ip/tx_xlconcat_0_0/sim/tx_xlconcat_0_0.v" \
+"../../../bd/tx/ip/tx_clk_wiz_1_0/tx_clk_wiz_1_0_clk_wiz.v" \
+"../../../bd/tx/ip/tx_clk_wiz_1_0/tx_clk_wiz_1_0.v" \
+"../../../bd/tx/ip/tx_util_vector_logic_0_2/sim/tx_util_vector_logic_0_2.v" \
+"../../../bd/tx/ip/tx_system_ila_0_0/bd_0/sim/bd_ddb0.v" \
+"../../../bd/tx/ip/tx_system_ila_0_0/bd_0/ip/ip_0/sim/bd_ddb0_ila_lib_0.v" \
+"../../../bd/tx/ip/tx_system_ila_0_0/bd_0/ip/ip_1/bd_ddb0_g_inst_0_gigantic_mux.v" \
+"../../../bd/tx/ip/tx_system_ila_0_0/bd_0/ip/ip_1/sim/bd_ddb0_g_inst_0.v" \
+"../../../bd/tx/ip/tx_system_ila_0_0/sim/tx_system_ila_0_0.v" \
+"../../../bd/tx/ip/tx_system_ila_1_0/bd_0/sim/bd_1de1.v" \
+"../../../bd/tx/ip/tx_system_ila_1_0/bd_0/ip/ip_0/sim/bd_1de1_ila_lib_0.v" \
+"../../../bd/tx/ip/tx_system_ila_1_0/bd_0/ip/ip_1/bd_1de1_g_inst_0_gigantic_mux.v" \
+"../../../bd/tx/ip/tx_system_ila_1_0/bd_0/ip/ip_1/sim/bd_1de1_g_inst_0.v" \
+"../../../bd/tx/ip/tx_system_ila_1_0/sim/tx_system_ila_1_0.v" \
+"../../../bd/tx/ip/tx_system_ila_2_0/bd_0/sim/bd_1d11.v" \
+"../../../bd/tx/ip/tx_system_ila_2_0/bd_0/ip/ip_0/sim/bd_1d11_ila_lib_0.v" \
+"../../../bd/tx/ip/tx_system_ila_2_0/sim/tx_system_ila_2_0.v" \
+"../../../bd/tx/sim/tx.v" \
+"../../../bd/tx/ip/tx_auto_pc_0/sim/tx_auto_pc_0.v" \
+"../../../bd/tx/ip/tx_auto_pc_1/sim/tx_auto_pc_1.v" \
+"../../../bd/tx/ip/tx_auto_us_0/sim/tx_auto_us_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Nov  4 20:33:31 2025
+# Process ID: 36316
+# Current directory: C:/Users/mines/OneDrive/Desktop/SDP29/eclypse_tx/eclypse_tx.runs/tx_system_ila_0_0_synth_1
+# Command line: vivado.exe -log tx_system_ila_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tx_system_ila_0_0.tcl
+# Log file: C:/Users/mines/OneDrive/Desktop/SDP29/eclypse_tx/eclypse_tx.runs/tx_system_ila_0_0_synth_1/tx_system_ila_0_0.vds
+# Journal file: C:/Users/mines/OneDrive/Desktop/SDP29/eclypse_tx/eclypse_tx.runs/tx_system_ila_0_0_synth_1\vivado.jou
+# Running On: Mine_Ulker, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 8, Host memory: 34065 MB
+#-----------------------------------------------------------
+source tx_system_ila_0_0.tcl -notrace
